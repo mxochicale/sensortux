@@ -1,0 +1,293 @@
+\contentsline {chapter}{\numberline {1}Class Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Class Documentation}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}ClassificationTux Class Reference}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Detailed Description}{5}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Constructor \& Destructor Documentation}{5}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}ClassificationTux}{5}{subsubsection.3.1.2.1}
+\contentsline {subsubsection}{\numberline {3.1.2.2}$\sim $ClassificationTux}{6}{subsubsection.3.1.2.2}
+\contentsline {subsection}{\numberline {3.1.3}Member Function Documentation}{6}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}threadMethod}{6}{subsubsection.3.1.3.1}
+\contentsline {section}{\numberline {3.2}Cloud Struct Reference}{7}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Detailed Description}{7}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Configuration Class Reference}{8}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Detailed Description}{8}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Constructor \& Destructor Documentation}{9}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1}$\sim $Configuration}{9}{subsubsection.3.3.2.1}
+\contentsline {subsection}{\numberline {3.3.3}Member Function Documentation}{9}{subsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.1}clear}{9}{subsubsection.3.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.3.2}getFilename}{9}{subsubsection.3.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3.3}getISVec}{9}{subsubsection.3.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.4}print}{9}{subsubsection.3.3.3.4}
+\contentsline {section}{\numberline {3.4}ControlEvent Struct Reference}{10}{section.3.4}
+\contentsline {section}{\numberline {3.5}DataStrings Class Reference}{11}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Member Function Documentation}{11}{subsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.1.1}decode}{11}{subsubsection.3.5.1.1}
+\contentsline {subsubsection}{\numberline {3.5.1.2}decodeByte}{11}{subsubsection.3.5.1.2}
+\contentsline {subsubsection}{\numberline {3.5.1.3}decodeFloat}{11}{subsubsection.3.5.1.3}
+\contentsline {subsubsection}{\numberline {3.5.1.4}decodeLimbPos}{11}{subsubsection.3.5.1.4}
+\contentsline {subsubsection}{\numberline {3.5.1.5}decodeWord}{12}{subsubsection.3.5.1.5}
+\contentsline {subsubsection}{\numberline {3.5.1.6}encode}{12}{subsubsection.3.5.1.6}
+\contentsline {subsubsection}{\numberline {3.5.1.7}encodeByte}{12}{subsubsection.3.5.1.7}
+\contentsline {subsubsection}{\numberline {3.5.1.8}encodeFloat}{12}{subsubsection.3.5.1.8}
+\contentsline {subsubsection}{\numberline {3.5.1.9}encodeLimbPos}{12}{subsubsection.3.5.1.9}
+\contentsline {subsubsection}{\numberline {3.5.1.10}encodeWord}{12}{subsubsection.3.5.1.10}
+\contentsline {subsubsection}{\numberline {3.5.1.11}getByte}{12}{subsubsection.3.5.1.11}
+\contentsline {subsubsection}{\numberline {3.5.1.12}getBytes}{12}{subsubsection.3.5.1.12}
+\contentsline {subsubsection}{\numberline {3.5.1.13}getData}{12}{subsubsection.3.5.1.13}
+\contentsline {subsubsection}{\numberline {3.5.1.14}getDataString}{13}{subsubsection.3.5.1.14}
+\contentsline {subsubsection}{\numberline {3.5.1.15}getDataString}{13}{subsubsection.3.5.1.15}
+\contentsline {subsubsection}{\numberline {3.5.1.16}getDataString}{13}{subsubsection.3.5.1.16}
+\contentsline {subsubsection}{\numberline {3.5.1.17}getNibbles}{13}{subsubsection.3.5.1.17}
+\contentsline {subsubsection}{\numberline {3.5.1.18}getWord}{13}{subsubsection.3.5.1.18}
+\contentsline {subsubsection}{\numberline {3.5.1.19}roggenDecode}{13}{subsubsection.3.5.1.19}
+\contentsline {subsubsection}{\numberline {3.5.1.20}roggenEncode}{13}{subsubsection.3.5.1.20}
+\contentsline {section}{\numberline {3.6}Defines Class Reference}{14}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Detailed Description}{14}{subsection.3.6.1}
+\contentsline {section}{\numberline {3.7}EulerRotation Struct Reference}{15}{section.3.7}
+\contentsline {section}{\numberline {3.8}FeatureSample Struct Reference}{16}{section.3.8}
+\contentsline {section}{\numberline {3.9}FloatData Struct Reference}{17}{section.3.9}
+\contentsline {section}{\numberline {3.10}FloatStruct Struct Reference}{18}{section.3.10}
+\contentsline {section}{\numberline {3.11}FrameParser2 Class Reference}{19}{section.3.11}
+\contentsline {section}{\numberline {3.12}GestureManagement Class Reference}{20}{section.3.12}
+\contentsline {subsection}{\numberline {3.12.1}Constructor \& Destructor Documentation}{20}{subsection.3.12.1}
+\contentsline {subsubsection}{\numberline {3.12.1.1}GestureManagement}{20}{subsubsection.3.12.1.1}
+\contentsline {subsubsection}{\numberline {3.12.1.2}$\sim $GestureManagement}{20}{subsubsection.3.12.1.2}
+\contentsline {subsection}{\numberline {3.12.2}Member Function Documentation}{20}{subsection.3.12.2}
+\contentsline {subsubsection}{\numberline {3.12.2.1}bufferFull}{20}{subsubsection.3.12.2.1}
+\contentsline {subsubsection}{\numberline {3.12.2.2}bufferFull}{21}{subsubsection.3.12.2.2}
+\contentsline {subsubsection}{\numberline {3.12.2.3}checkAllFiles}{21}{subsubsection.3.12.2.3}
+\contentsline {subsubsection}{\numberline {3.12.2.4}classify}{21}{subsubsection.3.12.2.4}
+\contentsline {subsubsection}{\numberline {3.12.2.5}classify}{21}{subsubsection.3.12.2.5}
+\contentsline {subsubsection}{\numberline {3.12.2.6}continousMode}{21}{subsubsection.3.12.2.6}
+\contentsline {subsubsection}{\numberline {3.12.2.7}fillBuffer}{21}{subsubsection.3.12.2.7}
+\contentsline {subsubsection}{\numberline {3.12.2.8}gotEnergy}{21}{subsubsection.3.12.2.8}
+\contentsline {subsubsection}{\numberline {3.12.2.9}gotEnergy}{21}{subsubsection.3.12.2.9}
+\contentsline {subsubsection}{\numberline {3.12.2.10}isGestureLengthOk}{21}{subsubsection.3.12.2.10}
+\contentsline {subsubsection}{\numberline {3.12.2.11}isSensorTrained}{21}{subsubsection.3.12.2.11}
+\contentsline {subsubsection}{\numberline {3.12.2.12}lostEnergy}{22}{subsubsection.3.12.2.12}
+\contentsline {subsubsection}{\numberline {3.12.2.13}lostEnergy}{22}{subsubsection.3.12.2.13}
+\contentsline {subsubsection}{\numberline {3.12.2.14}manageGestures}{22}{subsubsection.3.12.2.14}
+\contentsline {subsubsection}{\numberline {3.12.2.15}numberOfGestures}{22}{subsubsection.3.12.2.15}
+\contentsline {subsubsection}{\numberline {3.12.2.16}numberOfSensors}{22}{subsubsection.3.12.2.16}
+\contentsline {subsubsection}{\numberline {3.12.2.17}reenter}{22}{subsubsection.3.12.2.17}
+\contentsline {subsubsection}{\numberline {3.12.2.18}sensorOfGesture}{22}{subsubsection.3.12.2.18}
+\contentsline {subsubsection}{\numberline {3.12.2.19}setBufferToEnergyFrameSize}{22}{subsubsection.3.12.2.19}
+\contentsline {subsubsection}{\numberline {3.12.2.20}setBufferToEnergyFrameSize}{22}{subsubsection.3.12.2.20}
+\contentsline {subsubsection}{\numberline {3.12.2.21}setBufferToLongestGestureSize}{22}{subsubsection.3.12.2.21}
+\contentsline {subsubsection}{\numberline {3.12.2.22}setBufferToLongestGestureSize}{23}{subsubsection.3.12.2.22}
+\contentsline {subsubsection}{\numberline {3.12.2.23}setBufferUnlimited}{23}{subsubsection.3.12.2.23}
+\contentsline {subsubsection}{\numberline {3.12.2.24}setBufferUnlimited}{23}{subsubsection.3.12.2.24}
+\contentsline {subsubsection}{\numberline {3.12.2.25}training}{23}{subsubsection.3.12.2.25}
+\contentsline {subsubsection}{\numberline {3.12.2.26}updateBuffers}{23}{subsubsection.3.12.2.26}
+\contentsline {subsubsection}{\numberline {3.12.2.27}wait}{23}{subsubsection.3.12.2.27}
+\contentsline {section}{\numberline {3.13}Helper Class Reference}{24}{section.3.13}
+\contentsline {subsection}{\numberline {3.13.1}Constructor \& Destructor Documentation}{25}{subsection.3.13.1}
+\contentsline {subsubsection}{\numberline {3.13.1.1}Helper}{25}{subsubsection.3.13.1.1}
+\contentsline {subsection}{\numberline {3.13.2}Member Function Documentation}{26}{subsection.3.13.2}
+\contentsline {subsubsection}{\numberline {3.13.2.1}angleBetweenVectors}{26}{subsubsection.3.13.2.1}
+\contentsline {subsubsection}{\numberline {3.13.2.2}fileExists}{26}{subsubsection.3.13.2.2}
+\contentsline {subsubsection}{\numberline {3.13.2.3}getch}{26}{subsubsection.3.13.2.3}
+\contentsline {subsubsection}{\numberline {3.13.2.4}kbhit}{26}{subsubsection.3.13.2.4}
+\contentsline {subsubsection}{\numberline {3.13.2.5}multiply}{26}{subsubsection.3.13.2.5}
+\contentsline {subsubsection}{\numberline {3.13.2.6}normalize}{26}{subsubsection.3.13.2.6}
+\contentsline {subsubsection}{\numberline {3.13.2.7}num2Char}{26}{subsubsection.3.13.2.7}
+\contentsline {subsubsection}{\numberline {3.13.2.8}print2DecimalPlaces}{26}{subsubsection.3.13.2.8}
+\contentsline {subsubsection}{\numberline {3.13.2.9}restartuSeconds}{26}{subsubsection.3.13.2.9}
+\contentsline {subsubsection}{\numberline {3.13.2.10}rotate}{27}{subsubsection.3.13.2.10}
+\contentsline {subsubsection}{\numberline {3.13.2.11}rotate}{27}{subsubsection.3.13.2.11}
+\contentsline {subsubsection}{\numberline {3.13.2.12}rotate}{27}{subsubsection.3.13.2.12}
+\contentsline {subsubsection}{\numberline {3.13.2.13}scalarProduct}{27}{subsubsection.3.13.2.13}
+\contentsline {subsubsection}{\numberline {3.13.2.14}secAnduSec}{27}{subsubsection.3.13.2.14}
+\contentsline {subsubsection}{\numberline {3.13.2.15}seconds}{27}{subsubsection.3.13.2.15}
+\contentsline {subsubsection}{\numberline {3.13.2.16}setRowSize}{27}{subsubsection.3.13.2.16}
+\contentsline {subsubsection}{\numberline {3.13.2.17}setRowWidth}{27}{subsubsection.3.13.2.17}
+\contentsline {subsubsection}{\numberline {3.13.2.18}specialSleep}{27}{subsubsection.3.13.2.18}
+\contentsline {subsubsection}{\numberline {3.13.2.19}str2UpperCase}{27}{subsubsection.3.13.2.19}
+\contentsline {subsubsection}{\numberline {3.13.2.20}unitCircleDistance}{28}{subsubsection.3.13.2.20}
+\contentsline {subsubsection}{\numberline {3.13.2.21}unitCirclePoint}{28}{subsubsection.3.13.2.21}
+\contentsline {subsubsection}{\numberline {3.13.2.22}unitCirclePoint}{28}{subsubsection.3.13.2.22}
+\contentsline {subsubsection}{\numberline {3.13.2.23}unitCirclePoint}{28}{subsubsection.3.13.2.23}
+\contentsline {subsubsection}{\numberline {3.13.2.24}uSeconds}{28}{subsubsection.3.13.2.24}
+\contentsline {subsubsection}{\numberline {3.13.2.25}uSecondsSinceStart}{28}{subsubsection.3.13.2.25}
+\contentsline {subsubsection}{\numberline {3.13.2.26}vectorAngles}{28}{subsubsection.3.13.2.26}
+\contentsline {subsubsection}{\numberline {3.13.2.27}vectorAngles2}{28}{subsubsection.3.13.2.27}
+\contentsline {subsubsection}{\numberline {3.13.2.28}vectorDifference}{28}{subsubsection.3.13.2.28}
+\contentsline {subsubsection}{\numberline {3.13.2.29}vectorLength}{28}{subsubsection.3.13.2.29}
+\contentsline {subsubsection}{\numberline {3.13.2.30}vectorProduct}{29}{subsubsection.3.13.2.30}
+\contentsline {subsubsection}{\numberline {3.13.2.31}vectorSum}{29}{subsubsection.3.13.2.31}
+\contentsline {section}{\numberline {3.14}IntData Struct Reference}{30}{section.3.14}
+\contentsline {section}{\numberline {3.15}IntSource Class Reference}{31}{section.3.15}
+\contentsline {subsection}{\numberline {3.15.1}Detailed Description}{31}{subsection.3.15.1}
+\contentsline {subsection}{\numberline {3.15.2}Constructor \& Destructor Documentation}{31}{subsection.3.15.2}
+\contentsline {subsubsection}{\numberline {3.15.2.1}$\sim $IntSource}{31}{subsubsection.3.15.2.1}
+\contentsline {section}{\numberline {3.16}IntStruct Struct Reference}{32}{section.3.16}
+\contentsline {section}{\numberline {3.17}LearningAlgorithm Class Reference}{33}{section.3.17}
+\contentsline {subsection}{\numberline {3.17.1}Constructor \& Destructor Documentation}{33}{subsection.3.17.1}
+\contentsline {subsubsection}{\numberline {3.17.1.1}$\sim $LearningAlgorithm}{33}{subsubsection.3.17.1.1}
+\contentsline {section}{\numberline {3.18}LimbCoordinates Struct Reference}{34}{section.3.18}
+\contentsline {section}{\numberline {3.19}LimbNameCoordinates Struct Reference}{35}{section.3.19}
+\contentsline {section}{\numberline {3.20}Mutex Class Reference}{36}{section.3.20}
+\contentsline {subsection}{\numberline {3.20.1}Detailed Description}{36}{subsection.3.20.1}
+\contentsline {subsection}{\numberline {3.20.2}Constructor \& Destructor Documentation}{36}{subsection.3.20.2}
+\contentsline {subsubsection}{\numberline {3.20.2.1}Mutex}{36}{subsubsection.3.20.2.1}
+\contentsline {subsubsection}{\numberline {3.20.2.2}$\sim $Mutex}{36}{subsubsection.3.20.2.2}
+\contentsline {subsection}{\numberline {3.20.3}Member Function Documentation}{36}{subsection.3.20.3}
+\contentsline {subsubsection}{\numberline {3.20.3.1}acquireMutex}{36}{subsubsection.3.20.3.1}
+\contentsline {subsubsection}{\numberline {3.20.3.2}releaseMutex}{36}{subsubsection.3.20.3.2}
+\contentsline {section}{\numberline {3.21}NearestClusterCenter Class Reference}{37}{section.3.21}
+\contentsline {subsection}{\numberline {3.21.1}Constructor \& Destructor Documentation}{37}{subsection.3.21.1}
+\contentsline {subsubsection}{\numberline {3.21.1.1}NearestClusterCenter}{37}{subsubsection.3.21.1.1}
+\contentsline {subsubsection}{\numberline {3.21.1.2}NearestClusterCenter}{37}{subsubsection.3.21.1.2}
+\contentsline {subsubsection}{\numberline {3.21.1.3}$\sim $NearestClusterCenter}{37}{subsubsection.3.21.1.3}
+\contentsline {subsection}{\numberline {3.21.2}Member Function Documentation}{37}{subsection.3.21.2}
+\contentsline {subsubsection}{\numberline {3.21.2.1}classification}{37}{subsubsection.3.21.2.1}
+\contentsline {subsubsection}{\numberline {3.21.2.2}classify}{38}{subsubsection.3.21.2.2}
+\contentsline {subsubsection}{\numberline {3.21.2.3}getUnknownThreshold}{38}{subsubsection.3.21.2.3}
+\contentsline {subsubsection}{\numberline {3.21.2.4}print}{38}{subsubsection.3.21.2.4}
+\contentsline {subsubsection}{\numberline {3.21.2.5}reset}{38}{subsubsection.3.21.2.5}
+\contentsline {subsubsection}{\numberline {3.21.2.6}setUnknownThreshold}{38}{subsubsection.3.21.2.6}
+\contentsline {subsubsection}{\numberline {3.21.2.7}train}{38}{subsubsection.3.21.2.7}
+\contentsline {section}{\numberline {3.22}Neighbour Struct Reference}{39}{section.3.22}
+\contentsline {section}{\numberline {3.23}NodeAndData Struct Reference}{40}{section.3.23}
+\contentsline {section}{\numberline {3.24}NodeData Struct Reference}{41}{section.3.24}
+\contentsline {section}{\numberline {3.25}Output Struct Reference}{42}{section.3.25}
+\contentsline {section}{\numberline {3.26}Repercussion Class Reference}{43}{section.3.26}
+\contentsline {subsection}{\numberline {3.26.1}Detailed Description}{43}{subsection.3.26.1}
+\contentsline {subsection}{\numberline {3.26.2}Constructor \& Destructor Documentation}{43}{subsection.3.26.2}
+\contentsline {subsubsection}{\numberline {3.26.2.1}Repercussion}{43}{subsubsection.3.26.2.1}
+\contentsline {subsubsection}{\numberline {3.26.2.2}Repercussion}{43}{subsubsection.3.26.2.2}
+\contentsline {subsubsection}{\numberline {3.26.2.3}$\sim $Repercussion}{44}{subsubsection.3.26.2.3}
+\contentsline {subsection}{\numberline {3.26.3}Member Function Documentation}{44}{subsection.3.26.3}
+\contentsline {subsubsection}{\numberline {3.26.3.1}activate}{44}{subsubsection.3.26.3.1}
+\contentsline {subsubsection}{\numberline {3.26.3.2}deactivate}{44}{subsubsection.3.26.3.2}
+\contentsline {subsubsection}{\numberline {3.26.3.3}dec}{44}{subsubsection.3.26.3.3}
+\contentsline {subsubsection}{\numberline {3.26.3.4}decAll}{44}{subsubsection.3.26.3.4}
+\contentsline {subsubsection}{\numberline {3.26.3.5}get}{44}{subsubsection.3.26.3.5}
+\contentsline {subsubsection}{\numberline {3.26.3.6}getAll}{44}{subsubsection.3.26.3.6}
+\contentsline {subsubsection}{\numberline {3.26.3.7}inc}{44}{subsubsection.3.26.3.7}
+\contentsline {subsubsection}{\numberline {3.26.3.8}incAll}{44}{subsubsection.3.26.3.8}
+\contentsline {subsubsection}{\numberline {3.26.3.9}isZero}{44}{subsubsection.3.26.3.9}
+\contentsline {subsubsection}{\numberline {3.26.3.10}reset}{45}{subsubsection.3.26.3.10}
+\contentsline {subsubsection}{\numberline {3.26.3.11}resetAll}{45}{subsubsection.3.26.3.11}
+\contentsline {subsubsection}{\numberline {3.26.3.12}set}{45}{subsubsection.3.26.3.12}
+\contentsline {subsubsection}{\numberline {3.26.3.13}setAll}{45}{subsubsection.3.26.3.13}
+\contentsline {subsubsection}{\numberline {3.26.3.14}setDecrement}{45}{subsubsection.3.26.3.14}
+\contentsline {subsubsection}{\numberline {3.26.3.15}setDelay}{45}{subsubsection.3.26.3.15}
+\contentsline {subsubsection}{\numberline {3.26.3.16}setMaximum}{45}{subsubsection.3.26.3.16}
+\contentsline {subsubsection}{\numberline {3.26.3.17}threadMethod}{45}{subsubsection.3.26.3.17}
+\contentsline {section}{\numberline {3.27}RoggenBuffer Class Reference}{46}{section.3.27}
+\contentsline {subsection}{\numberline {3.27.1}Constructor \& Destructor Documentation}{46}{subsection.3.27.1}
+\contentsline {subsubsection}{\numberline {3.27.1.1}RoggenBuffer}{46}{subsubsection.3.27.1.1}
+\contentsline {subsubsection}{\numberline {3.27.1.2}RoggenBuffer}{47}{subsubsection.3.27.1.2}
+\contentsline {subsubsection}{\numberline {3.27.1.3}RoggenBuffer}{47}{subsubsection.3.27.1.3}
+\contentsline {subsubsection}{\numberline {3.27.1.4}$\sim $RoggenBuffer}{47}{subsubsection.3.27.1.4}
+\contentsline {subsection}{\numberline {3.27.2}Member Function Documentation}{47}{subsection.3.27.2}
+\contentsline {subsubsection}{\numberline {3.27.2.1}at}{47}{subsubsection.3.27.2.1}
+\contentsline {subsubsection}{\numberline {3.27.2.2}check}{47}{subsubsection.3.27.2.2}
+\contentsline {subsubsection}{\numberline {3.27.2.3}check}{47}{subsubsection.3.27.2.3}
+\contentsline {subsubsection}{\numberline {3.27.2.4}checkSize}{47}{subsubsection.3.27.2.4}
+\contentsline {subsubsection}{\numberline {3.27.2.5}checkSize}{47}{subsubsection.3.27.2.5}
+\contentsline {subsubsection}{\numberline {3.27.2.6}clear}{47}{subsubsection.3.27.2.6}
+\contentsline {subsubsection}{\numberline {3.27.2.7}filter}{47}{subsubsection.3.27.2.7}
+\contentsline {subsubsection}{\numberline {3.27.2.8}filter}{48}{subsubsection.3.27.2.8}
+\contentsline {subsubsection}{\numberline {3.27.2.9}filterPut}{48}{subsubsection.3.27.2.9}
+\contentsline {subsubsection}{\numberline {3.27.2.10}filterPut}{48}{subsubsection.3.27.2.10}
+\contentsline {subsubsection}{\numberline {3.27.2.11}get}{48}{subsubsection.3.27.2.11}
+\contentsline {subsubsection}{\numberline {3.27.2.12}getFrames}{48}{subsubsection.3.27.2.12}
+\contentsline {subsubsection}{\numberline {3.27.2.13}getLast}{48}{subsubsection.3.27.2.13}
+\contentsline {subsubsection}{\numberline {3.27.2.14}getPointer}{48}{subsubsection.3.27.2.14}
+\contentsline {subsubsection}{\numberline {3.27.2.15}getRange}{48}{subsubsection.3.27.2.15}
+\contentsline {subsubsection}{\numberline {3.27.2.16}getSingleMeasurement}{48}{subsubsection.3.27.2.16}
+\contentsline {subsubsection}{\numberline {3.27.2.17}isFresh}{48}{subsubsection.3.27.2.17}
+\contentsline {subsubsection}{\numberline {3.27.2.18}isFull}{49}{subsubsection.3.27.2.18}
+\contentsline {subsubsection}{\numberline {3.27.2.19}maxSize}{49}{subsubsection.3.27.2.19}
+\contentsline {subsubsection}{\numberline {3.27.2.20}resetUnlimited}{49}{subsubsection.3.27.2.20}
+\contentsline {subsubsection}{\numberline {3.27.2.21}setLength}{49}{subsubsection.3.27.2.21}
+\contentsline {subsubsection}{\numberline {3.27.2.22}setUnlimited}{49}{subsubsection.3.27.2.22}
+\contentsline {subsubsection}{\numberline {3.27.2.23}setUnlimited}{49}{subsubsection.3.27.2.23}
+\contentsline {subsubsection}{\numberline {3.27.2.24}size}{49}{subsubsection.3.27.2.24}
+\contentsline {section}{\numberline {3.28}RoggenDataExtension Class Reference}{50}{section.3.28}
+\contentsline {subsection}{\numberline {3.28.1}Detailed Description}{50}{subsection.3.28.1}
+\contentsline {subsection}{\numberline {3.28.2}Constructor \& Destructor Documentation}{50}{subsection.3.28.2}
+\contentsline {subsubsection}{\numberline {3.28.2.1}RoggenDataExtension}{50}{subsubsection.3.28.2.1}
+\contentsline {subsubsection}{\numberline {3.28.2.2}$\sim $RoggenDataExtension}{50}{subsubsection.3.28.2.2}
+\contentsline {subsection}{\numberline {3.28.3}Member Function Documentation}{50}{subsection.3.28.3}
+\contentsline {subsubsection}{\numberline {3.28.3.1}getData}{50}{subsubsection.3.28.3.1}
+\contentsline {section}{\numberline {3.29}RoggenFeatureExtraction Class Reference}{51}{section.3.29}
+\contentsline {subsection}{\numberline {3.29.1}Detailed Description}{51}{subsection.3.29.1}
+\contentsline {subsection}{\numberline {3.29.2}Constructor \& Destructor Documentation}{52}{subsection.3.29.2}
+\contentsline {subsubsection}{\numberline {3.29.2.1}RoggenFeatureExtraction}{52}{subsubsection.3.29.2.1}
+\contentsline {subsubsection}{\numberline {3.29.2.2}$\sim $RoggenFeatureExtraction}{52}{subsubsection.3.29.2.2}
+\contentsline {subsection}{\numberline {3.29.3}Member Function Documentation}{52}{subsection.3.29.3}
+\contentsline {subsubsection}{\numberline {3.29.3.1}getMean}{52}{subsubsection.3.29.3.1}
+\contentsline {subsubsection}{\numberline {3.29.3.2}getMean}{52}{subsubsection.3.29.3.2}
+\contentsline {subsubsection}{\numberline {3.29.3.3}getMeanCrossingRate}{52}{subsubsection.3.29.3.3}
+\contentsline {subsubsection}{\numberline {3.29.3.4}getMeanCrossingRate}{52}{subsubsection.3.29.3.4}
+\contentsline {subsubsection}{\numberline {3.29.3.5}getMeanCrossingRate}{52}{subsubsection.3.29.3.5}
+\contentsline {subsubsection}{\numberline {3.29.3.6}getMeanCrossingRate}{53}{subsubsection.3.29.3.6}
+\contentsline {subsubsection}{\numberline {3.29.3.7}getStandardDeviation}{53}{subsubsection.3.29.3.7}
+\contentsline {subsubsection}{\numberline {3.29.3.8}getStandardDeviation}{53}{subsubsection.3.29.3.8}
+\contentsline {subsubsection}{\numberline {3.29.3.9}getStandardDeviation}{53}{subsubsection.3.29.3.9}
+\contentsline {subsubsection}{\numberline {3.29.3.10}getStandardDeviation}{53}{subsubsection.3.29.3.10}
+\contentsline {subsubsection}{\numberline {3.29.3.11}getVariance}{53}{subsubsection.3.29.3.11}
+\contentsline {subsubsection}{\numberline {3.29.3.12}getVariance}{53}{subsubsection.3.29.3.12}
+\contentsline {subsubsection}{\numberline {3.29.3.13}getVariance}{54}{subsubsection.3.29.3.13}
+\contentsline {subsubsection}{\numberline {3.29.3.14}getVariance}{54}{subsubsection.3.29.3.14}
+\contentsline {subsubsection}{\numberline {3.29.3.15}gotEnergy}{54}{subsubsection.3.29.3.15}
+\contentsline {subsubsection}{\numberline {3.29.3.16}gotEnergy}{54}{subsubsection.3.29.3.16}
+\contentsline {subsubsection}{\numberline {3.29.3.17}gotEnergy}{54}{subsubsection.3.29.3.17}
+\contentsline {subsubsection}{\numberline {3.29.3.18}gotEnergy}{54}{subsubsection.3.29.3.18}
+\contentsline {subsubsection}{\numberline {3.29.3.19}lostEnergy}{54}{subsubsection.3.29.3.19}
+\contentsline {subsubsection}{\numberline {3.29.3.20}lostEnergy}{55}{subsubsection.3.29.3.20}
+\contentsline {subsubsection}{\numberline {3.29.3.21}lostEnergy}{55}{subsubsection.3.29.3.21}
+\contentsline {subsubsection}{\numberline {3.29.3.22}lostEnergy}{55}{subsubsection.3.29.3.22}
+\contentsline {section}{\numberline {3.30}RoggenSensor Class Reference}{56}{section.3.30}
+\contentsline {subsection}{\numberline {3.30.1}Constructor \& Destructor Documentation}{56}{subsection.3.30.1}
+\contentsline {subsubsection}{\numberline {3.30.1.1}RoggenSensor}{56}{subsubsection.3.30.1.1}
+\contentsline {subsubsection}{\numberline {3.30.1.2}RoggenSensor}{56}{subsubsection.3.30.1.2}
+\contentsline {subsubsection}{\numberline {3.30.1.3}$\sim $RoggenSensor}{56}{subsubsection.3.30.1.3}
+\contentsline {subsection}{\numberline {3.30.2}Member Function Documentation}{56}{subsection.3.30.2}
+\contentsline {subsubsection}{\numberline {3.30.2.1}getData}{56}{subsubsection.3.30.2.1}
+\contentsline {section}{\numberline {3.31}RoggenSensorFusion Class Reference}{57}{section.3.31}
+\contentsline {subsection}{\numberline {3.31.1}Detailed Description}{57}{subsection.3.31.1}
+\contentsline {subsection}{\numberline {3.31.2}Constructor \& Destructor Documentation}{57}{subsection.3.31.2}
+\contentsline {subsubsection}{\numberline {3.31.2.1}$\sim $RoggenSensorFusion}{57}{subsubsection.3.31.2.1}
+\contentsline {subsection}{\numberline {3.31.3}Member Function Documentation}{57}{subsection.3.31.3}
+\contentsline {subsubsection}{\numberline {3.31.3.1}getData}{57}{subsubsection.3.31.3.1}
+\contentsline {subsubsection}{\numberline {3.31.3.2}threadMethod}{57}{subsubsection.3.31.3.2}
+\contentsline {section}{\numberline {3.32}Sample Struct Reference}{59}{section.3.32}
+\contentsline {section}{\numberline {3.33}Thread Class Reference}{60}{section.3.33}
+\contentsline {subsection}{\numberline {3.33.1}Detailed Description}{60}{subsection.3.33.1}
+\contentsline {subsection}{\numberline {3.33.2}Constructor \& Destructor Documentation}{60}{subsection.3.33.2}
+\contentsline {subsubsection}{\numberline {3.33.2.1}Thread}{60}{subsubsection.3.33.2.1}
+\contentsline {subsubsection}{\numberline {3.33.2.2}Thread}{60}{subsubsection.3.33.2.2}
+\contentsline {subsubsection}{\numberline {3.33.2.3}Thread}{60}{subsubsection.3.33.2.3}
+\contentsline {subsubsection}{\numberline {3.33.2.4}Thread}{60}{subsubsection.3.33.2.4}
+\contentsline {subsubsection}{\numberline {3.33.2.5}$\sim $Thread}{61}{subsubsection.3.33.2.5}
+\contentsline {subsection}{\numberline {3.33.3}Member Function Documentation}{61}{subsection.3.33.3}
+\contentsline {subsubsection}{\numberline {3.33.3.1}setThreadMethod}{61}{subsubsection.3.33.3.1}
+\contentsline {subsubsection}{\numberline {3.33.3.2}startThread}{61}{subsubsection.3.33.3.2}
+\contentsline {subsubsection}{\numberline {3.33.3.3}stopped}{61}{subsubsection.3.33.3.3}
+\contentsline {subsubsection}{\numberline {3.33.3.4}stopThread}{61}{subsubsection.3.33.3.4}
+\contentsline {subsubsection}{\numberline {3.33.3.5}threadMethod}{61}{subsubsection.3.33.3.5}
+\contentsline {section}{\numberline {3.34}TuxControl Class Reference}{62}{section.3.34}
+\contentsline {subsection}{\numberline {3.34.1}Constructor \& Destructor Documentation}{62}{subsection.3.34.1}
+\contentsline {subsubsection}{\numberline {3.34.1.1}TuxControl}{62}{subsubsection.3.34.1.1}
+\contentsline {subsubsection}{\numberline {3.34.1.2}$\sim $TuxControl}{62}{subsubsection.3.34.1.2}
+\contentsline {subsection}{\numberline {3.34.2}Member Function Documentation}{62}{subsection.3.34.2}
+\contentsline {subsubsection}{\numberline {3.34.2.1}addControlEvent}{62}{subsubsection.3.34.2.1}
+\contentsline {subsubsection}{\numberline {3.34.2.2}clearQueue}{62}{subsubsection.3.34.2.2}
+\contentsline {subsubsection}{\numberline {3.34.2.3}getControlEvent}{62}{subsubsection.3.34.2.3}
+\contentsline {subsubsection}{\numberline {3.34.2.4}getEventQueueLength}{63}{subsubsection.3.34.2.4}
+\contentsline {subsubsection}{\numberline {3.34.2.5}invalidateControlEvent}{63}{subsubsection.3.34.2.5}
+\contentsline {subsubsection}{\numberline {3.34.2.6}removeControlEvent}{63}{subsubsection.3.34.2.6}
+\contentsline {subsubsection}{\numberline {3.34.2.7}setControlEvent}{63}{subsubsection.3.34.2.7}
+\contentsline {subsubsection}{\numberline {3.34.2.8}validateControlEvent}{63}{subsubsection.3.34.2.8}
+\contentsline {section}{\numberline {3.35}TuxControlSingleton Class Reference}{64}{section.3.35}
+\contentsline {subsection}{\numberline {3.35.1}Detailed Description}{64}{subsection.3.35.1}
+\contentsline {subsection}{\numberline {3.35.2}Member Function Documentation}{64}{subsection.3.35.2}
+\contentsline {subsubsection}{\numberline {3.35.2.1}getInstance}{64}{subsubsection.3.35.2.1}
+\contentsline {section}{\numberline {3.36}XmlFileHandling Class Reference}{65}{section.3.36}

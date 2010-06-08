@@ -1,0 +1,58 @@
+\hypertarget{classMutex}{
+\section{Mutex Class Reference}
+\label{classMutex}\index{Mutex@{Mutex}}
+}
+
+
+{\ttfamily \#include $<$Mutex.h$>$}Inheritance diagram for Mutex::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classMutex}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classMutex_a593423d868daf926c7b0d63a833ae29a}{Mutex} ()
+\item 
+virtual \hyperlink{classMutex_ac9e9182407f5f74892318607888e9be4}{$\sim$Mutex} ()
+\item 
+void \hyperlink{classMutex_a0f7dda8ab1e2ad808feacb3c9d7fc8ad}{acquireMutex} ()
+\item 
+void \hyperlink{classMutex_a2f4a3dd7d969f9d77e67ceea9cb6bc3a}{releaseMutex} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Simple class for inheritance or aggregation. It provides a single mutex (mutal exclusion). Using it as a super class is easier. Whereas aggregation has to be used in the case when more than one mutex is needed. Author: Lars Widmer, www.lawi.ch 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classMutex_a593423d868daf926c7b0d63a833ae29a}{
+\index{Mutex@{Mutex}!Mutex@{Mutex}}
+\index{Mutex@{Mutex}!Mutex@{Mutex}}
+\subsubsection[{Mutex}]{\setlength{\rightskip}{0pt plus 5cm}Mutex::Mutex ()}}
+\label{classMutex_a593423d868daf926c7b0d63a833ae29a}
+Constructor: Initializes the mutual exclusion. \hypertarget{classMutex_ac9e9182407f5f74892318607888e9be4}{
+\index{Mutex@{Mutex}!$\sim$Mutex@{$\sim$Mutex}}
+\index{$\sim$Mutex@{$\sim$Mutex}!Mutex@{Mutex}}
+\subsubsection[{$\sim$Mutex}]{\setlength{\rightskip}{0pt plus 5cm}Mutex::$\sim$Mutex ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classMutex_ac9e9182407f5f74892318607888e9be4}
+Destructor: Destroys the mutual exclusion. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classMutex_a0f7dda8ab1e2ad808feacb3c9d7fc8ad}{
+\index{Mutex@{Mutex}!acquireMutex@{acquireMutex}}
+\index{acquireMutex@{acquireMutex}!Mutex@{Mutex}}
+\subsubsection[{acquireMutex}]{\setlength{\rightskip}{0pt plus 5cm}void Mutex::acquireMutex ()}}
+\label{classMutex_a0f7dda8ab1e2ad808feacb3c9d7fc8ad}
+Acquire the mutual exclusion. \hypertarget{classMutex_a2f4a3dd7d969f9d77e67ceea9cb6bc3a}{
+\index{Mutex@{Mutex}!releaseMutex@{releaseMutex}}
+\index{releaseMutex@{releaseMutex}!Mutex@{Mutex}}
+\subsubsection[{releaseMutex}]{\setlength{\rightskip}{0pt plus 5cm}void Mutex::releaseMutex ()}}
+\label{classMutex_a2f4a3dd7d969f9d77e67ceea9cb6bc3a}
+Release the mutual exclusion. 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+Mutex.h\item 
+Mutex.cpp\end{DoxyCompactItemize}

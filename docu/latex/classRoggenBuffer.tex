@@ -1,0 +1,263 @@
+\hypertarget{classRoggenBuffer}{
+\section{RoggenBuffer Class Reference}
+\label{classRoggenBuffer}\index{RoggenBuffer@{RoggenBuffer}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRoggenBuffer_a64573713834ff7772db6e180d9b34be6}{RoggenBuffer} ()
+\item 
+\hyperlink{classRoggenBuffer_a54b6110634f1f2d1a38552d58b841bf8}{RoggenBuffer} (std::vector$<$ std::vector$<$ int $>$ $>$)
+\item 
+\hyperlink{classRoggenBuffer_aaff7360a2f18576aeb9a5164a6cf6eec}{RoggenBuffer} (int)
+\item 
+virtual \hyperlink{classRoggenBuffer_a575b9194c53270add2d11e119d070293}{$\sim$RoggenBuffer} ()
+\item 
+std::vector$<$ std::vector$<$ int $>$ $>$ $\ast$ \hyperlink{classRoggenBuffer_a5fab9575ec2f4038c394009f689bffb7}{getPointer} ()
+\item 
+std::vector$<$ std::vector$<$ int $>$ $>$ \hyperlink{classRoggenBuffer_ad952a6eec2e3aea2a071f191c0decd36}{getRange} (int, int)
+\item 
+std::vector$<$ std::vector$<$ int $>$ $>$ \hyperlink{classRoggenBuffer_a7e4c7aa19aa7c900e2bbf00d23c698a1}{get} ()
+\item 
+std::vector$<$ std::vector$<$ int $>$ $>$ \hyperlink{classRoggenBuffer_a1c1ee753d0654159c62a0ee4ae95d9a0}{getLast} ()
+\item 
+bool \hyperlink{classRoggenBuffer_a1e2fe9957cfdf7db79678d929809efb0}{isFresh} ()
+\item 
+void \hyperlink{classRoggenBuffer_a199b6d0b632b4d9447a2ad85514d0872}{clear} ()
+\item 
+void \hyperlink{classRoggenBuffer_ad37f32dca74267b357a68c781920b08b}{setLength} (int)
+\item 
+int \hyperlink{classRoggenBuffer_aa74b37a710412767fa3bfcbf7f7c1958}{size} ()
+\item 
+int \hyperlink{classRoggenBuffer_ad64ee4593f5d4c488f3f18a9c0c558ab}{maxSize} ()
+\item 
+bool \hyperlink{classRoggenBuffer_a7eefcb649046e2e5929b76c890b07269}{isFull} ()
+\item 
+std::vector$<$ int $>$ \hyperlink{classRoggenBuffer_a81e4f32e486a0ae052bbe25088ccaffc}{at} (int)
+\item 
+\hypertarget{classRoggenBuffer_adcbbd2883819c7af9cf20ed95bbeb563}{
+void {\bfseries put} (std::vector$<$ int $>$)}
+\label{classRoggenBuffer_adcbbd2883819c7af9cf20ed95bbeb563}
+
+\item 
+\hypertarget{classRoggenBuffer_a0c49c7ea05d56f174e255dfee8664548}{
+void {\bfseries put} (std::vector$<$ std::vector$<$ int $>$ $>$)}
+\label{classRoggenBuffer_a0c49c7ea05d56f174e255dfee8664548}
+
+\item 
+std::vector$<$ int $>$ \hyperlink{classRoggenBuffer_a08b39243af623747c975c4d92d9a62cd}{getSingleMeasurement} (int)
+\item 
+std::vector$<$ std::vector$<$ int $>$ $>$ \hyperlink{classRoggenBuffer_a466876e9c5f87bf762467c97ae907048}{getFrames} (int, int)
+\item 
+void \hyperlink{classRoggenBuffer_a52b15812bb64d1821cbdce1646eab154}{checkSize} (int)
+\item 
+void \hyperlink{classRoggenBuffer_ad261de53f0e675cc0ed6a704991749c8}{check} (int, int)
+\item 
+std::vector$<$ std::vector$<$ int $>$ $>$ \hyperlink{classRoggenBuffer_ad1380e701fa8f05486c2f487e6740667}{filter} (int, int)
+\item 
+void \hyperlink{classRoggenBuffer_a42941bfb6c6319a1317f5da3c670facf}{filterPut} (int, int, std::vector$<$ int $>$)
+\item 
+void \hyperlink{classRoggenBuffer_a22ac37e59b6943d9f1996a43e58af190}{filterPut} (int, int, std::vector$<$ std::vector$<$ int $>$ $>$)
+\item 
+void \hyperlink{classRoggenBuffer_a86fe403735010ca3d62dbde7de22c0f3}{setUnlimited} ()
+\item 
+void \hyperlink{classRoggenBuffer_a252d46936fdf42d67af3f0e28a9c43c2}{resetUnlimited} ()
+\item 
+void \hyperlink{classRoggenBuffer_a3c0a581a4b554b63ad6ed8a1ee8c4d19}{setUnlimited} (bool flag)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classRoggenBuffer_a6d6d0d7e81c2bc086278bbf88a4a41a0}{
+static std::vector$<$ int $>$ {\bfseries getSingleMeasurement} (int, std::vector$<$ std::vector$<$ int $>$ $>$)}
+\label{classRoggenBuffer_a6d6d0d7e81c2bc086278bbf88a4a41a0}
+
+\item 
+\hypertarget{classRoggenBuffer_a4d137aded6fd7477c6884440aeb0ceb1}{
+static std::vector$<$ std::vector$<$ int $>$ $>$ {\bfseries getFrames} (int, int, std::vector$<$ std::vector$<$ int $>$ $>$)}
+\label{classRoggenBuffer_a4d137aded6fd7477c6884440aeb0ceb1}
+
+\item 
+\hypertarget{classRoggenBuffer_a2dbeae26b5d0b862a3678c72aabf1e7d}{
+static std::vector$<$ int $>$ {\bfseries getSum} (std::vector$<$ int $>$, std::vector$<$ int $>$)}
+\label{classRoggenBuffer_a2dbeae26b5d0b862a3678c72aabf1e7d}
+
+\item 
+\hypertarget{classRoggenBuffer_ab04af345c5d1610685f47403ccf6485e}{
+static std::vector$<$ int $>$ {\bfseries getSum} (std::vector$<$ int $>$, std::vector$<$ int $>$, std::vector$<$ int $>$)}
+\label{classRoggenBuffer_ab04af345c5d1610685f47403ccf6485e}
+
+\item 
+\hypertarget{classRoggenBuffer_a222744a726aafea7dfe7fc45c3bb5367}{
+static std::vector$<$ int $>$ {\bfseries getVectorialSum} (std::vector$<$ int $>$, std::vector$<$ int $>$)}
+\label{classRoggenBuffer_a222744a726aafea7dfe7fc45c3bb5367}
+
+\item 
+\hypertarget{classRoggenBuffer_a1270039b5a4327a2825ec1f7d58f98ae}{
+static std::vector$<$ int $>$ {\bfseries getVectorialSum} (std::vector$<$ int $>$, std::vector$<$ int $>$, std::vector$<$ int $>$)}
+\label{classRoggenBuffer_a1270039b5a4327a2825ec1f7d58f98ae}
+
+\item 
+static void \hyperlink{classRoggenBuffer_ab3ed1a78479fcfa51dbb9b4f94cceab0}{checkSize} (int, int)
+\item 
+static void \hyperlink{classRoggenBuffer_a36077a6513df2178e6454c32b2baa388}{check} (int, int, int)
+\item 
+\hypertarget{classRoggenBuffer_a7994937ccf0d890a2699a1fe5eaba841}{
+static std::vector$<$ std::vector$<$ int $>$ $>$ {\bfseries filter} (int, int, std::vector$<$ std::vector$<$ int $>$ $>$ $\ast$)}
+\label{classRoggenBuffer_a7994937ccf0d890a2699a1fe5eaba841}
+
+\item 
+static std::vector$<$ std::vector$<$ int $>$ $>$ \hyperlink{classRoggenBuffer_a23c39bdb6ed6c9c34e545a1cb9c137dd}{filter} (int, int, std::vector$<$ std::vector$<$ int $>$ $>$)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classRoggenBuffer_a64573713834ff7772db6e180d9b34be6}{
+\index{RoggenBuffer@{RoggenBuffer}!RoggenBuffer@{RoggenBuffer}}
+\index{RoggenBuffer@{RoggenBuffer}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{RoggenBuffer}]{\setlength{\rightskip}{0pt plus 5cm}RoggenBuffer::RoggenBuffer ()}}
+\label{classRoggenBuffer_a64573713834ff7772db6e180d9b34be6}
+Constructor: Initializes the class fields and sets the buffer to default size. \hypertarget{classRoggenBuffer_a54b6110634f1f2d1a38552d58b841bf8}{
+\index{RoggenBuffer@{RoggenBuffer}!RoggenBuffer@{RoggenBuffer}}
+\index{RoggenBuffer@{RoggenBuffer}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{RoggenBuffer}]{\setlength{\rightskip}{0pt plus 5cm}RoggenBuffer::RoggenBuffer (std::vector$<$ std::vector$<$ int $>$ $>$ {\em data})}}
+\label{classRoggenBuffer_a54b6110634f1f2d1a38552d58b841bf8}
+Constructor: Initializes the class fields and sets the buffer to default size. The given data is stored in the buffer. \hypertarget{classRoggenBuffer_aaff7360a2f18576aeb9a5164a6cf6eec}{
+\index{RoggenBuffer@{RoggenBuffer}!RoggenBuffer@{RoggenBuffer}}
+\index{RoggenBuffer@{RoggenBuffer}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{RoggenBuffer}]{\setlength{\rightskip}{0pt plus 5cm}RoggenBuffer::RoggenBuffer (int {\em bufferSize})}}
+\label{classRoggenBuffer_aaff7360a2f18576aeb9a5164a6cf6eec}
+Constructor: Initializes the class fields and sets the buffer to the given size. \hypertarget{classRoggenBuffer_a575b9194c53270add2d11e119d070293}{
+\index{RoggenBuffer@{RoggenBuffer}!$\sim$RoggenBuffer@{$\sim$RoggenBuffer}}
+\index{$\sim$RoggenBuffer@{$\sim$RoggenBuffer}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{$\sim$RoggenBuffer}]{\setlength{\rightskip}{0pt plus 5cm}RoggenBuffer::$\sim$RoggenBuffer ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classRoggenBuffer_a575b9194c53270add2d11e119d070293}
+Destructor: Currently nothing to do. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classRoggenBuffer_a81e4f32e486a0ae052bbe25088ccaffc}{
+\index{RoggenBuffer@{RoggenBuffer}!at@{at}}
+\index{at@{at}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{at}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ int $>$ RoggenBuffer::at (int {\em index})}}
+\label{classRoggenBuffer_a81e4f32e486a0ae052bbe25088ccaffc}
+Returns the frame at the given buffer position. \hypertarget{classRoggenBuffer_ad261de53f0e675cc0ed6a704991749c8}{
+\index{RoggenBuffer@{RoggenBuffer}!check@{check}}
+\index{check@{check}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{check}]{\setlength{\rightskip}{0pt plus 5cm}void RoggenBuffer::check (int {\em start}, \/  int {\em end})}}
+\label{classRoggenBuffer_ad261de53f0e675cc0ed6a704991749c8}
+Returns true if the given two numbers both are above zero and below or equal to the buffer size. \hypertarget{classRoggenBuffer_a36077a6513df2178e6454c32b2baa388}{
+\index{RoggenBuffer@{RoggenBuffer}!check@{check}}
+\index{check@{check}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{check}]{\setlength{\rightskip}{0pt plus 5cm}void RoggenBuffer::check (int {\em start}, \/  int {\em end}, \/  int {\em max})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classRoggenBuffer_a36077a6513df2178e6454c32b2baa388}
+Returns true if the given first two numbers both are above zero and below or equal to the third parameter. \hypertarget{classRoggenBuffer_a52b15812bb64d1821cbdce1646eab154}{
+\index{RoggenBuffer@{RoggenBuffer}!checkSize@{checkSize}}
+\index{checkSize@{checkSize}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{checkSize}]{\setlength{\rightskip}{0pt plus 5cm}void RoggenBuffer::checkSize (int {\em num})}}
+\label{classRoggenBuffer_a52b15812bb64d1821cbdce1646eab154}
+Returns true if the given number is above zero and below or equal to the buffer size. \hypertarget{classRoggenBuffer_ab3ed1a78479fcfa51dbb9b4f94cceab0}{
+\index{RoggenBuffer@{RoggenBuffer}!checkSize@{checkSize}}
+\index{checkSize@{checkSize}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{checkSize}]{\setlength{\rightskip}{0pt plus 5cm}void RoggenBuffer::checkSize (int {\em num}, \/  int {\em max})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classRoggenBuffer_ab3ed1a78479fcfa51dbb9b4f94cceab0}
+Returns true if the given first number is above zero and below or equal to the second parameter. \hypertarget{classRoggenBuffer_a199b6d0b632b4d9447a2ad85514d0872}{
+\index{RoggenBuffer@{RoggenBuffer}!clear@{clear}}
+\index{clear@{clear}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}void RoggenBuffer::clear ()}}
+\label{classRoggenBuffer_a199b6d0b632b4d9447a2ad85514d0872}
+Clears the internal buffer. \hypertarget{classRoggenBuffer_ad1380e701fa8f05486c2f487e6740667}{
+\index{RoggenBuffer@{RoggenBuffer}!filter@{filter}}
+\index{filter@{filter}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{filter}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ int $>$ $>$ RoggenBuffer::filter (int {\em meas}, \/  int {\em val})}}
+\label{classRoggenBuffer_ad1380e701fa8f05486c2f487e6740667}
+Filters the internal buffer. The measurement with the given index must have the given value. Frames which satisfy this condition are put to the result vector. \hypertarget{classRoggenBuffer_a23c39bdb6ed6c9c34e545a1cb9c137dd}{
+\index{RoggenBuffer@{RoggenBuffer}!filter@{filter}}
+\index{filter@{filter}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{filter}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ int $>$ $>$ RoggenBuffer::filter (int {\em meas}, \/  int {\em val}, \/  std::vector$<$ std::vector$<$ int $>$ $>$ {\em buf})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classRoggenBuffer_a23c39bdb6ed6c9c34e545a1cb9c137dd}
+Filters the data from the given buffer. The measurement with the given index must have the given value. Frames which satisfy this condition are put to the result vector. \hypertarget{classRoggenBuffer_a22ac37e59b6943d9f1996a43e58af190}{
+\index{RoggenBuffer@{RoggenBuffer}!filterPut@{filterPut}}
+\index{filterPut@{filterPut}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{filterPut}]{\setlength{\rightskip}{0pt plus 5cm}void RoggenBuffer::filterPut (int {\em meas}, \/  int {\em val}, \/  std::vector$<$ std::vector$<$ int $>$ $>$ {\em lines})}}
+\label{classRoggenBuffer_a22ac37e59b6943d9f1996a43e58af190}
+Filters and puts the given buffer. The measurement with the given index must have the given value. The given frames which satisfy this condition are put to the internal buffer. \hypertarget{classRoggenBuffer_a42941bfb6c6319a1317f5da3c670facf}{
+\index{RoggenBuffer@{RoggenBuffer}!filterPut@{filterPut}}
+\index{filterPut@{filterPut}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{filterPut}]{\setlength{\rightskip}{0pt plus 5cm}void RoggenBuffer::filterPut (int {\em meas}, \/  int {\em val}, \/  std::vector$<$ int $>$ {\em line})}}
+\label{classRoggenBuffer_a42941bfb6c6319a1317f5da3c670facf}
+Filters and puts the given frame. The measurement with the given index must have the given value. If the given frame satisfies this condition it's put to the internal buffer. \hypertarget{classRoggenBuffer_a7e4c7aa19aa7c900e2bbf00d23c698a1}{
+\index{RoggenBuffer@{RoggenBuffer}!get@{get}}
+\index{get@{get}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ int $>$ $>$ RoggenBuffer::get ()}}
+\label{classRoggenBuffer_a7e4c7aa19aa7c900e2bbf00d23c698a1}
+Getter function for the whole buffer. \hypertarget{classRoggenBuffer_a466876e9c5f87bf762467c97ae907048}{
+\index{RoggenBuffer@{RoggenBuffer}!getFrames@{getFrames}}
+\index{getFrames@{getFrames}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{getFrames}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ int $>$ $>$ RoggenBuffer::getFrames (int {\em start}, \/  int {\em end})}}
+\label{classRoggenBuffer_a466876e9c5f87bf762467c97ae907048}
+This method returns a part of the buffer. The parameters tell from which start index to which stop index the frames should be returned. The frame at the start position is the first to be returend. And the frame at the end position is the last to be returend. Same functionality as getRange. \hypertarget{classRoggenBuffer_a1c1ee753d0654159c62a0ee4ae95d9a0}{
+\index{RoggenBuffer@{RoggenBuffer}!getLast@{getLast}}
+\index{getLast@{getLast}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{getLast}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ int $>$ $>$ RoggenBuffer::getLast ()}}
+\label{classRoggenBuffer_a1c1ee753d0654159c62a0ee4ae95d9a0}
+Getter function for the last element of the buffer. The return value has the same format as the buffer itself. \hypertarget{classRoggenBuffer_a5fab9575ec2f4038c394009f689bffb7}{
+\index{RoggenBuffer@{RoggenBuffer}!getPointer@{getPointer}}
+\index{getPointer@{getPointer}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{getPointer}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ int $>$ $>$ $\ast$ RoggenBuffer::getPointer ()}}
+\label{classRoggenBuffer_a5fab9575ec2f4038c394009f689bffb7}
+Getter function for the buffer pointer. \hypertarget{classRoggenBuffer_ad952a6eec2e3aea2a071f191c0decd36}{
+\index{RoggenBuffer@{RoggenBuffer}!getRange@{getRange}}
+\index{getRange@{getRange}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{getRange}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ int $>$ $>$ RoggenBuffer::getRange (int {\em start}, \/  int {\em end})}}
+\label{classRoggenBuffer_ad952a6eec2e3aea2a071f191c0decd36}
+Getter function for a certain part of the buffer. The parameters give start and end index. \hypertarget{classRoggenBuffer_a08b39243af623747c975c4d92d9a62cd}{
+\index{RoggenBuffer@{RoggenBuffer}!getSingleMeasurement@{getSingleMeasurement}}
+\index{getSingleMeasurement@{getSingleMeasurement}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{getSingleMeasurement}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ int $>$ RoggenBuffer::getSingleMeasurement (int {\em meas})}}
+\label{classRoggenBuffer_a08b39243af623747c975c4d92d9a62cd}
+Returns a vector of a single measurement for all frames in the buffer. A measurement for examle is AccX. The measurement index must be within the valid range for the vector index. \hypertarget{classRoggenBuffer_a1e2fe9957cfdf7db79678d929809efb0}{
+\index{RoggenBuffer@{RoggenBuffer}!isFresh@{isFresh}}
+\index{isFresh@{isFresh}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{isFresh}]{\setlength{\rightskip}{0pt plus 5cm}bool RoggenBuffer::isFresh ()}}
+\label{classRoggenBuffer_a1e2fe9957cfdf7db79678d929809efb0}
+Returns if there wasn't a read operation after the last write operation. \hypertarget{classRoggenBuffer_a7eefcb649046e2e5929b76c890b07269}{
+\index{RoggenBuffer@{RoggenBuffer}!isFull@{isFull}}
+\index{isFull@{isFull}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{isFull}]{\setlength{\rightskip}{0pt plus 5cm}bool RoggenBuffer::isFull ()}}
+\label{classRoggenBuffer_a7eefcb649046e2e5929b76c890b07269}
+Returns if the buffer is full. Full means there are as much frames as there is space in the buffer. There's nothing bad about this. When full the buffer works in a usual fifo manner (queue). \hypertarget{classRoggenBuffer_ad64ee4593f5d4c488f3f18a9c0c558ab}{
+\index{RoggenBuffer@{RoggenBuffer}!maxSize@{maxSize}}
+\index{maxSize@{maxSize}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{maxSize}]{\setlength{\rightskip}{0pt plus 5cm}int RoggenBuffer::maxSize ()}}
+\label{classRoggenBuffer_ad64ee4593f5d4c488f3f18a9c0c558ab}
+Returns the current maximum length of the buffer. \hypertarget{classRoggenBuffer_a252d46936fdf42d67af3f0e28a9c43c2}{
+\index{RoggenBuffer@{RoggenBuffer}!resetUnlimited@{resetUnlimited}}
+\index{resetUnlimited@{resetUnlimited}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{resetUnlimited}]{\setlength{\rightskip}{0pt plus 5cm}void RoggenBuffer::resetUnlimited ()}}
+\label{classRoggenBuffer_a252d46936fdf42d67af3f0e28a9c43c2}
+Set the buffer to limited length. This means if full there is always the oldest frame removed when inserting a new one. A limited buffer is full when acting as a Queue. \hypertarget{classRoggenBuffer_ad37f32dca74267b357a68c781920b08b}{
+\index{RoggenBuffer@{RoggenBuffer}!setLength@{setLength}}
+\index{setLength@{setLength}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{setLength}]{\setlength{\rightskip}{0pt plus 5cm}void RoggenBuffer::setLength (int {\em bufferSize})}}
+\label{classRoggenBuffer_ad37f32dca74267b357a68c781920b08b}
+Clears the internal buffer and sets its maximal length to the given length. The length can be larger then the actual number of frames in the buffer. In this case the buffer fills up before it acts like a queue. \hypertarget{classRoggenBuffer_a3c0a581a4b554b63ad6ed8a1ee8c4d19}{
+\index{RoggenBuffer@{RoggenBuffer}!setUnlimited@{setUnlimited}}
+\index{setUnlimited@{setUnlimited}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{setUnlimited}]{\setlength{\rightskip}{0pt plus 5cm}void RoggenBuffer::setUnlimited (bool {\em flag})}}
+\label{classRoggenBuffer_a3c0a581a4b554b63ad6ed8a1ee8c4d19}
+Sets unlimited mode of the buffer length. True means there are no more frames removed when inserting a new one. An unlimited buffer never gets full. \hypertarget{classRoggenBuffer_a86fe403735010ca3d62dbde7de22c0f3}{
+\index{RoggenBuffer@{RoggenBuffer}!setUnlimited@{setUnlimited}}
+\index{setUnlimited@{setUnlimited}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{setUnlimited}]{\setlength{\rightskip}{0pt plus 5cm}void RoggenBuffer::setUnlimited ()}}
+\label{classRoggenBuffer_a86fe403735010ca3d62dbde7de22c0f3}
+Set the buffer to unlimited length. This means there are no more frames removed when inserting a new one. An unlimited buffer never gets full. \hypertarget{classRoggenBuffer_aa74b37a710412767fa3bfcbf7f7c1958}{
+\index{RoggenBuffer@{RoggenBuffer}!size@{size}}
+\index{size@{size}!RoggenBuffer@{RoggenBuffer}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int RoggenBuffer::size ()}}
+\label{classRoggenBuffer_aa74b37a710412767fa3bfcbf7f7c1958}
+Returns the actual number of frames in the buffer. 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+RoggenBuffer.h\item 
+RoggenBuffer.cpp\end{DoxyCompactItemize}

@@ -1,0 +1,156 @@
+\hypertarget{classDataStrings}{
+\section{DataStrings Class Reference}
+\label{classDataStrings}\index{DataStrings@{DataStrings}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classDataStrings_aa2df0794f9ec86503a238a457b963b96}{getNibbles} (int, string, int)
+\item 
+static int \hyperlink{classDataStrings_a966c13fc690343dbe1022efaa0d64361}{getBytes} (int, string, int)
+\item 
+static unsigned \hyperlink{classDataStrings_a7e07a327b93e74d5b320ef0485db7a89}{getByte} (string, int)
+\item 
+static int \hyperlink{classDataStrings_abb6df04a95c423a6b3f8e9bc5c64c40a}{getWord} (string, int)
+\item 
+static unsigned int \hyperlink{classDataStrings_ad4368edf61246ac52e03aeb7fb2bbd39}{decodeByte} (string code)
+\item 
+static string \hyperlink{classDataStrings_a49277265d8e3452b66a32b6ee3df84f1}{encodeByte} (unsigned int num)
+\item 
+static int \hyperlink{classDataStrings_aab412b1f14f0aa184be075cc7f3e1292}{decodeWord} (string code)
+\item 
+static string \hyperlink{classDataStrings_a6f006e5be30be2bed7964aed0586d38f}{encodeWord} (int num)
+\item 
+static int \hyperlink{classDataStrings_ad9781143a12f82cf677940d35d32d2cc}{decode} (unsigned bit, string code)
+\item 
+static string \hyperlink{classDataStrings_a2fcc2c42051507e518252c91980c3475}{encode} (unsigned bit, int num)
+\item 
+static string \hyperlink{classDataStrings_a416919ab32b17ec1ded450e5e80fb05f}{encodeFloat} (float)
+\item 
+static float \hyperlink{classDataStrings_a4572cc7a60f7c91e4262a7b07b378fa1}{decodeFloat} (string)
+\item 
+static vector$<$ \hyperlink{structNodeAndData}{NodeAndData} $>$ \hyperlink{classDataStrings_ad9df1b24bed654e0b7da9e354e5a4e43}{getData} (string)
+\item 
+static string \hyperlink{classDataStrings_ae3279bea5f297a4244c726231489397d}{getDataString} (\hyperlink{structNodeAndData}{NodeAndData})
+\item 
+static string \hyperlink{classDataStrings_ae4666d61ff8ee1bd2630041a0c812436}{getDataString} (\hyperlink{structNodeAndData}{NodeAndData}, int)
+\item 
+static string \hyperlink{classDataStrings_a58aaa4afbc8154c8e68da0572b1c3da1}{getDataString} (vector$<$ \hyperlink{structNodeAndData}{NodeAndData} $>$, int)
+\item 
+static string \hyperlink{classDataStrings_a822ab320fceb49de214ba804860e21e4}{encodeLimbPos} (\hyperlink{structLimbNameCoordinates}{LimbNameCoordinates})
+\item 
+static \hyperlink{structLimbNameCoordinates}{LimbNameCoordinates} \hyperlink{classDataStrings_a46f7f77ab083ffbd1a3835d71e4a0014}{decodeLimbPos} (string)
+\item 
+static string \hyperlink{classDataStrings_a1b7a08e71cc0fe63e26a0c508ce8b9f1}{roggenEncode} (vector$<$ int $>$)
+\item 
+static vector$<$ int $>$ \hyperlink{classDataStrings_a4371afe9ad92957610f64276c5afec19}{roggenDecode} (string)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classDataStrings_ad9781143a12f82cf677940d35d32d2cc}{
+\index{DataStrings@{DataStrings}!decode@{decode}}
+\index{decode@{decode}!DataStrings@{DataStrings}}
+\subsubsection[{decode}]{\setlength{\rightskip}{0pt plus 5cm}int DataStrings::decode (unsigned {\em bit}, \/  string {\em code})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_ad9781143a12f82cf677940d35d32d2cc}
+Decodes a given string of a given number of bytes. Every character gets decoded into 4 bits. Therefore the given number of bits has to be a multiple of 4. \hypertarget{classDataStrings_ad4368edf61246ac52e03aeb7fb2bbd39}{
+\index{DataStrings@{DataStrings}!decodeByte@{decodeByte}}
+\index{decodeByte@{decodeByte}!DataStrings@{DataStrings}}
+\subsubsection[{decodeByte}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int DataStrings::decodeByte (string {\em code})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_ad4368edf61246ac52e03aeb7fb2bbd39}
+\hyperlink{classHelper}{Helper} method to decode a byte for sending as a text. In the input string only the characters from A to P can be used. Therefore one byte is stored in two characters. \hypertarget{classDataStrings_a4572cc7a60f7c91e4262a7b07b378fa1}{
+\index{DataStrings@{DataStrings}!decodeFloat@{decodeFloat}}
+\index{decodeFloat@{decodeFloat}!DataStrings@{DataStrings}}
+\subsubsection[{decodeFloat}]{\setlength{\rightskip}{0pt plus 5cm}float DataStrings::decodeFloat (string {\em code})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_a4572cc7a60f7c91e4262a7b07b378fa1}
+\hyperlink{classHelper}{Helper} method to decode a small float after receiving it as a text. We receive 16bit. Legal are values between -\/30.0 and 30.0. We deal with 3 digits after the comma. \hypertarget{classDataStrings_a46f7f77ab083ffbd1a3835d71e4a0014}{
+\index{DataStrings@{DataStrings}!decodeLimbPos@{decodeLimbPos}}
+\index{decodeLimbPos@{decodeLimbPos}!DataStrings@{DataStrings}}
+\subsubsection[{decodeLimbPos}]{\setlength{\rightskip}{0pt plus 5cm}{\bf LimbNameCoordinates} DataStrings::decodeLimbPos (string {\em data})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_a46f7f77ab083ffbd1a3835d71e4a0014}
+Extracts the name and position of a limb out of the given string. \hypertarget{classDataStrings_aab412b1f14f0aa184be075cc7f3e1292}{
+\index{DataStrings@{DataStrings}!decodeWord@{decodeWord}}
+\index{decodeWord@{decodeWord}!DataStrings@{DataStrings}}
+\subsubsection[{decodeWord}]{\setlength{\rightskip}{0pt plus 5cm}int DataStrings::decodeWord (string {\em code})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_aab412b1f14f0aa184be075cc7f3e1292}
+\hyperlink{classHelper}{Helper} method to decode a word after receiving it as a text. We assume 16bit values. This is what the standard says about the minimum size of int. Therefore the function exits if there accur larger values. This function returns values from -\/32768 to 32767. \hypertarget{classDataStrings_a2fcc2c42051507e518252c91980c3475}{
+\index{DataStrings@{DataStrings}!encode@{encode}}
+\index{encode@{encode}!DataStrings@{DataStrings}}
+\subsubsection[{encode}]{\setlength{\rightskip}{0pt plus 5cm}string DataStrings::encode (unsigned {\em bit}, \/  int {\em num})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_a2fcc2c42051507e518252c91980c3475}
+Encodes a given value of a given number of bytes. Every 4 bits are encoded in one character. Therefore the given number of bits has to be a multiple of 4. \hypertarget{classDataStrings_a49277265d8e3452b66a32b6ee3df84f1}{
+\index{DataStrings@{DataStrings}!encodeByte@{encodeByte}}
+\index{encodeByte@{encodeByte}!DataStrings@{DataStrings}}
+\subsubsection[{encodeByte}]{\setlength{\rightskip}{0pt plus 5cm}string DataStrings::encodeByte (unsigned int {\em num})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_a49277265d8e3452b66a32b6ee3df84f1}
+\hyperlink{classHelper}{Helper} method to encode a byte for sending as a text. In the output string only the characters from A to P are used. Therefore one byte takes two characters to store. In return we have loads of escape characters left and we don't have to be afraid of eof occuring in the data stream. Values bigger then 255 aren't accepted. In other words only the lowest 8 Bits are wanted. Unsigned numbers are expected! \hypertarget{classDataStrings_a416919ab32b17ec1ded450e5e80fb05f}{
+\index{DataStrings@{DataStrings}!encodeFloat@{encodeFloat}}
+\index{encodeFloat@{encodeFloat}!DataStrings@{DataStrings}}
+\subsubsection[{encodeFloat}]{\setlength{\rightskip}{0pt plus 5cm}string DataStrings::encodeFloat (float {\em num})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_a416919ab32b17ec1ded450e5e80fb05f}
+\hyperlink{classHelper}{Helper} method to encode a small float number for sending as a text. We send 16bit. Legal are values between -\/30.0 and 30.0. The function exits if there accur larger values. We transmit 3 digits after the comma. \hypertarget{classDataStrings_a822ab320fceb49de214ba804860e21e4}{
+\index{DataStrings@{DataStrings}!encodeLimbPos@{encodeLimbPos}}
+\index{encodeLimbPos@{encodeLimbPos}!DataStrings@{DataStrings}}
+\subsubsection[{encodeLimbPos}]{\setlength{\rightskip}{0pt plus 5cm}string DataStrings::encodeLimbPos ({\bf LimbNameCoordinates} {\em data})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_a822ab320fceb49de214ba804860e21e4}
+Encodes the name and position of a limb into a string. \hypertarget{classDataStrings_a6f006e5be30be2bed7964aed0586d38f}{
+\index{DataStrings@{DataStrings}!encodeWord@{encodeWord}}
+\index{encodeWord@{encodeWord}!DataStrings@{DataStrings}}
+\subsubsection[{encodeWord}]{\setlength{\rightskip}{0pt plus 5cm}string DataStrings::encodeWord (int {\em num})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_a6f006e5be30be2bed7964aed0586d38f}
+\hyperlink{classHelper}{Helper} method to encode a word for sending as a text. We assume 16bit values. This is what the standard says about the minimum size of int. Therefore the function exits if there accur larger values. This function handles values from -\/32768 to 32767. \hypertarget{classDataStrings_a7e07a327b93e74d5b320ef0485db7a89}{
+\index{DataStrings@{DataStrings}!getByte@{getByte}}
+\index{getByte@{getByte}!DataStrings@{DataStrings}}
+\subsubsection[{getByte}]{\setlength{\rightskip}{0pt plus 5cm}unsigned DataStrings::getByte (string {\em str}, \/  int {\em start})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_a7e07a327b93e74d5b320ef0485db7a89}
+Extracts an unsigned number ouf of a string. The length is fixed to one byte. Therefore the number is between 0 and 255. In the string this is a value between AA and PP. \hypertarget{classDataStrings_a966c13fc690343dbe1022efaa0d64361}{
+\index{DataStrings@{DataStrings}!getBytes@{getBytes}}
+\index{getBytes@{getBytes}!DataStrings@{DataStrings}}
+\subsubsection[{getBytes}]{\setlength{\rightskip}{0pt plus 5cm}int DataStrings::getBytes (int {\em numOfBytes}, \/  string {\em str}, \/  int {\em start})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_a966c13fc690343dbe1022efaa0d64361}
+Extracts a number of bytes out of a string. Every byte there is encoded into two characters from A to P. This method returns positive and negative numbers. \hypertarget{classDataStrings_ad9df1b24bed654e0b7da9e354e5a4e43}{
+\index{DataStrings@{DataStrings}!getData@{getData}}
+\index{getData@{getData}!DataStrings@{DataStrings}}
+\subsubsection[{getData}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ {\bf NodeAndData} $>$ DataStrings::getData (string {\em data})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_ad9df1b24bed654e0b7da9e354e5a4e43}
+Extracts the sensor data out of the given string. \hypertarget{classDataStrings_a58aaa4afbc8154c8e68da0572b1c3da1}{
+\index{DataStrings@{DataStrings}!getDataString@{getDataString}}
+\index{getDataString@{getDataString}!DataStrings@{DataStrings}}
+\subsubsection[{getDataString}]{\setlength{\rightskip}{0pt plus 5cm}string DataStrings::getDataString (vector$<$ {\bf NodeAndData} $>$ {\em nads}, \/  int {\em id})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_a58aaa4afbc8154c8e68da0572b1c3da1}
+\hyperlink{classHelper}{Helper} method \hypertarget{classDataStrings_ae4666d61ff8ee1bd2630041a0c812436}{
+\index{DataStrings@{DataStrings}!getDataString@{getDataString}}
+\index{getDataString@{getDataString}!DataStrings@{DataStrings}}
+\subsubsection[{getDataString}]{\setlength{\rightskip}{0pt plus 5cm}string DataStrings::getDataString ({\bf NodeAndData} {\em nad}, \/  int {\em id})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_ae4666d61ff8ee1bd2630041a0c812436}
+\hyperlink{classHelper}{Helper} method \hypertarget{classDataStrings_ae3279bea5f297a4244c726231489397d}{
+\index{DataStrings@{DataStrings}!getDataString@{getDataString}}
+\index{getDataString@{getDataString}!DataStrings@{DataStrings}}
+\subsubsection[{getDataString}]{\setlength{\rightskip}{0pt plus 5cm}string DataStrings::getDataString ({\bf NodeAndData} {\em nad})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_ae3279bea5f297a4244c726231489397d}
+\hyperlink{classHelper}{Helper} method \hypertarget{classDataStrings_aa2df0794f9ec86503a238a457b963b96}{
+\index{DataStrings@{DataStrings}!getNibbles@{getNibbles}}
+\index{getNibbles@{getNibbles}!DataStrings@{DataStrings}}
+\subsubsection[{getNibbles}]{\setlength{\rightskip}{0pt plus 5cm}int DataStrings::getNibbles (int {\em numOfNibbles}, \/  string {\em str}, \/  int {\em start})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_aa2df0794f9ec86503a238a457b963b96}
+Extracts a number of nibbles (half bytes; 4 bits) out of a string. Every byte there is encoded into two characters from A to P. This method returns positive and negative numbers. \hypertarget{classDataStrings_abb6df04a95c423a6b3f8e9bc5c64c40a}{
+\index{DataStrings@{DataStrings}!getWord@{getWord}}
+\index{getWord@{getWord}!DataStrings@{DataStrings}}
+\subsubsection[{getWord}]{\setlength{\rightskip}{0pt plus 5cm}int DataStrings::getWord (string {\em str}, \/  int {\em start})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_abb6df04a95c423a6b3f8e9bc5c64c40a}
+Extracts a 2 byte value out of a string. Every byte there is encoded into two characters. Therefore the given string must be four characters long. This method returns positive and negative numbers. \hypertarget{classDataStrings_a4371afe9ad92957610f64276c5afec19}{
+\index{DataStrings@{DataStrings}!roggenDecode@{roggenDecode}}
+\index{roggenDecode@{roggenDecode}!DataStrings@{DataStrings}}
+\subsubsection[{roggenDecode}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ int $>$ DataStrings::roggenDecode (string {\em str})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_a4371afe9ad92957610f64276c5afec19}
+Decodes a string back to vector of int (used as stream frame for the roggen sensors). \hypertarget{classDataStrings_a1b7a08e71cc0fe63e26a0c508ce8b9f1}{
+\index{DataStrings@{DataStrings}!roggenEncode@{roggenEncode}}
+\index{roggenEncode@{roggenEncode}!DataStrings@{DataStrings}}
+\subsubsection[{roggenEncode}]{\setlength{\rightskip}{0pt plus 5cm}string DataStrings::roggenEncode (vector$<$ int $>$ {\em data})\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classDataStrings_a1b7a08e71cc0fe63e26a0c508ce8b9f1}
+Encodes a vector of int (used as stream frame for the roggen sensors) into a string. 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+DataStrings.h\item 
+DataStrings.cpp\end{DoxyCompactItemize}

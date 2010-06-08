@@ -1,0 +1,58 @@
+\hypertarget{classRoggenSensorFusion}{
+\section{RoggenSensorFusion Class Reference}
+\label{classRoggenSensorFusion}\index{RoggenSensorFusion@{RoggenSensorFusion}}
+}
+
+
+{\ttfamily \#include $<$RoggenSensorFusion.h$>$}Inheritance diagram for RoggenSensorFusion::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classRoggenSensorFusion}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classRoggenSensorFusion_a8ea10f1fff711e63484450cff7615e91}{
+{\bfseries RoggenSensorFusion} (std::vector$<$ std::string $>$, std::string)}
+\label{classRoggenSensorFusion_a8ea10f1fff711e63484450cff7615e91}
+
+\item 
+virtual \hyperlink{classRoggenSensorFusion_a3f31cc50b5c484ab19713f14fb9c8d10}{$\sim$RoggenSensorFusion} ()
+\item 
+virtual RoggenData \hyperlink{classRoggenSensorFusion_adbf5ec2917eea50f83ae836213e03c5c}{getData} ()
+\item 
+void \hyperlink{classRoggenSensorFusion_a2d36e7e447102dbd505440489ebbedbc}{threadMethod} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class mixes a number of sensors into a channel similar to a single sensor. Therefore it implements the same interface as the Sensor class itself. Still it's easy to see from which sensor a value originates since every frame carries the sensor ID within. Author: Lars Widmer, www.lawi.ch 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classRoggenSensorFusion_a3f31cc50b5c484ab19713f14fb9c8d10}{
+\index{RoggenSensorFusion@{RoggenSensorFusion}!$\sim$RoggenSensorFusion@{$\sim$RoggenSensorFusion}}
+\index{$\sim$RoggenSensorFusion@{$\sim$RoggenSensorFusion}!RoggenSensorFusion@{RoggenSensorFusion}}
+\subsubsection[{$\sim$RoggenSensorFusion}]{\setlength{\rightskip}{0pt plus 5cm}RoggenSensorFusion::$\sim$RoggenSensorFusion ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classRoggenSensorFusion_a3f31cc50b5c484ab19713f14fb9c8d10}
+Destructor: Stops the threads and cleans up. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classRoggenSensorFusion_adbf5ec2917eea50f83ae836213e03c5c}{
+\index{RoggenSensorFusion@{RoggenSensorFusion}!getData@{getData}}
+\index{getData@{getData}!RoggenSensorFusion@{RoggenSensorFusion}}
+\subsubsection[{getData}]{\setlength{\rightskip}{0pt plus 5cm}RoggenData RoggenSensorFusion::getData ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classRoggenSensorFusion_adbf5ec2917eea50f83ae836213e03c5c}
+Implements the \hyperlink{classRoggenSensorFusion_adbf5ec2917eea50f83ae836213e03c5c}{getData()} method from the \hyperlink{classIntSource}{IntSource} interface class. Reads data from the internal queue. Using conditional a blocking read is simulated. Therefore from the outside it looks and feels the same whether you use a single sensor (\hyperlink{classRoggenSensor}{RoggenSensor}) of a fusion (\hyperlink{classRoggenSensorFusion}{RoggenSensorFusion}) of them. Both classes implement the same interface \hyperlink{classIntSource}{IntSource}. 
+
+Implements \hyperlink{classIntSource}{IntSource}.\hypertarget{classRoggenSensorFusion_a2d36e7e447102dbd505440489ebbedbc}{
+\index{RoggenSensorFusion@{RoggenSensorFusion}!threadMethod@{threadMethod}}
+\index{threadMethod@{threadMethod}!RoggenSensorFusion@{RoggenSensorFusion}}
+\subsubsection[{threadMethod}]{\setlength{\rightskip}{0pt plus 5cm}void RoggenSensorFusion::threadMethod ()}}
+\label{classRoggenSensorFusion_a2d36e7e447102dbd505440489ebbedbc}
+\hyperlink{classThread}{Thread} Method: This method is called once. After it runs out the thread stops. That's why it uses a while loop within. It get's data from the input sensors and puts it into a queue. The output method \hyperlink{classRoggenSensorFusion_adbf5ec2917eea50f83ae836213e03c5c}{getData()} reads from this queue. pthread conditionals are used to block \hyperlink{classRoggenSensorFusion_adbf5ec2917eea50f83ae836213e03c5c}{getData()} when there is no data available. 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+RoggenSensorFusion.h\item 
+RoggenSensorFusion.cpp\end{DoxyCompactItemize}

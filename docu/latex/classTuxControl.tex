@@ -1,0 +1,95 @@
+\hypertarget{classTuxControl}{
+\section{TuxControl Class Reference}
+\label{classTuxControl}\index{TuxControl@{TuxControl}}
+}
+Inheritance diagram for TuxControl::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classTuxControl}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classTuxControl_a44c108889313709916fd0b58b80e4376}{TuxControl} ()
+\item 
+virtual \hyperlink{classTuxControl_a146627cfdc57247d2e653a8a48f9dd2b}{$\sim$TuxControl} ()
+\item 
+\hyperlink{structControlEvent}{ControlEvent} \hyperlink{classTuxControl_a2b8a3437fcabe73f06b9ee20a9044000}{getControlEvent} ()
+\item 
+void \hyperlink{classTuxControl_a36dc3a422109f1ce8858442c2d8e0ee6}{setControlEvent} (\hyperlink{structControlEvent}{ControlEvent} ce)
+\item 
+void \hyperlink{classTuxControl_adbe78251cc48f86e4ef5395c4374a834}{validateControlEvent} ()
+\item 
+void \hyperlink{classTuxControl_aa17c4139818a442407f0c0e8a84a9969}{invalidateControlEvent} ()
+\item 
+\hyperlink{structControlEvent}{ControlEvent} \hyperlink{classTuxControl_a3f2ed3813a924773ef979c3a03378e24}{removeControlEvent} ()
+\item 
+void \hyperlink{classTuxControl_a7b81a5759a1c10cdce1627e8b6cff1f2}{addControlEvent} (\hyperlink{structControlEvent}{ControlEvent} ce)
+\item 
+int \hyperlink{classTuxControl_a7574efb4a2375e3d33c4d3efe898a8ac}{getEventQueueLength} ()
+\item 
+void \hyperlink{classTuxControl_a3408b3c145883602c7c450c792eca529}{clearQueue} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classTuxControl_a44c108889313709916fd0b58b80e4376}{
+\index{TuxControl@{TuxControl}!TuxControl@{TuxControl}}
+\index{TuxControl@{TuxControl}!TuxControl@{TuxControl}}
+\subsubsection[{TuxControl}]{\setlength{\rightskip}{0pt plus 5cm}TuxControl::TuxControl ()}}
+\label{classTuxControl_a44c108889313709916fd0b58b80e4376}
+Initializes the aggregated mutex. And initially clears the queue. \hypertarget{classTuxControl_a146627cfdc57247d2e653a8a48f9dd2b}{
+\index{TuxControl@{TuxControl}!$\sim$TuxControl@{$\sim$TuxControl}}
+\index{$\sim$TuxControl@{$\sim$TuxControl}!TuxControl@{TuxControl}}
+\subsubsection[{$\sim$TuxControl}]{\setlength{\rightskip}{0pt plus 5cm}TuxControl::$\sim$TuxControl ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classTuxControl_a146627cfdc57247d2e653a8a48f9dd2b}
+Deletes the mutex. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classTuxControl_a7b81a5759a1c10cdce1627e8b6cff1f2}{
+\index{TuxControl@{TuxControl}!addControlEvent@{addControlEvent}}
+\index{addControlEvent@{addControlEvent}!TuxControl@{TuxControl}}
+\subsubsection[{addControlEvent}]{\setlength{\rightskip}{0pt plus 5cm}void TuxControl::addControlEvent ({\bf ControlEvent} {\em ce})}}
+\label{classTuxControl_a7b81a5759a1c10cdce1627e8b6cff1f2}
+Adds a new element to the back of the queue. \hypertarget{classTuxControl_a3408b3c145883602c7c450c792eca529}{
+\index{TuxControl@{TuxControl}!clearQueue@{clearQueue}}
+\index{clearQueue@{clearQueue}!TuxControl@{TuxControl}}
+\subsubsection[{clearQueue}]{\setlength{\rightskip}{0pt plus 5cm}void TuxControl::clearQueue ()}}
+\label{classTuxControl_a3408b3c145883602c7c450c792eca529}
+Clears the queue. \hypertarget{classTuxControl_a2b8a3437fcabe73f06b9ee20a9044000}{
+\index{TuxControl@{TuxControl}!getControlEvent@{getControlEvent}}
+\index{getControlEvent@{getControlEvent}!TuxControl@{TuxControl}}
+\subsubsection[{getControlEvent}]{\setlength{\rightskip}{0pt plus 5cm}{\bf ControlEvent} TuxControl::getControlEvent ()}}
+\label{classTuxControl_a2b8a3437fcabe73f06b9ee20a9044000}
+Returns the first event in queue. It does neither invalidate nor remove the event. Use this function if you don't want queue functionality. \hypertarget{classTuxControl_a7574efb4a2375e3d33c4d3efe898a8ac}{
+\index{TuxControl@{TuxControl}!getEventQueueLength@{getEventQueueLength}}
+\index{getEventQueueLength@{getEventQueueLength}!TuxControl@{TuxControl}}
+\subsubsection[{getEventQueueLength}]{\setlength{\rightskip}{0pt plus 5cm}int TuxControl::getEventQueueLength ()}}
+\label{classTuxControl_a7574efb4a2375e3d33c4d3efe898a8ac}
+Returns the current length of the queue. \hypertarget{classTuxControl_aa17c4139818a442407f0c0e8a84a9969}{
+\index{TuxControl@{TuxControl}!invalidateControlEvent@{invalidateControlEvent}}
+\index{invalidateControlEvent@{invalidateControlEvent}!TuxControl@{TuxControl}}
+\subsubsection[{invalidateControlEvent}]{\setlength{\rightskip}{0pt plus 5cm}void TuxControl::invalidateControlEvent ()}}
+\label{classTuxControl_aa17c4139818a442407f0c0e8a84a9969}
+Sets the first element in queue to be invalid. Use this function if you don't want queue functionality. \hypertarget{classTuxControl_a3f2ed3813a924773ef979c3a03378e24}{
+\index{TuxControl@{TuxControl}!removeControlEvent@{removeControlEvent}}
+\index{removeControlEvent@{removeControlEvent}!TuxControl@{TuxControl}}
+\subsubsection[{removeControlEvent}]{\setlength{\rightskip}{0pt plus 5cm}{\bf ControlEvent} TuxControl::removeControlEvent ()}}
+\label{classTuxControl_a3f2ed3813a924773ef979c3a03378e24}
+Removes and returns the first (oldest) element from the queue. \hypertarget{classTuxControl_a36dc3a422109f1ce8858442c2d8e0ee6}{
+\index{TuxControl@{TuxControl}!setControlEvent@{setControlEvent}}
+\index{setControlEvent@{setControlEvent}!TuxControl@{TuxControl}}
+\subsubsection[{setControlEvent}]{\setlength{\rightskip}{0pt plus 5cm}void TuxControl::setControlEvent ({\bf ControlEvent} {\em ce})}}
+\label{classTuxControl_a36dc3a422109f1ce8858442c2d8e0ee6}
+Clears the queue and sets the first event in queue. Use this function if you don't want queue functionality. \hypertarget{classTuxControl_adbe78251cc48f86e4ef5395c4374a834}{
+\index{TuxControl@{TuxControl}!validateControlEvent@{validateControlEvent}}
+\index{validateControlEvent@{validateControlEvent}!TuxControl@{TuxControl}}
+\subsubsection[{validateControlEvent}]{\setlength{\rightskip}{0pt plus 5cm}void TuxControl::validateControlEvent ()}}
+\label{classTuxControl_adbe78251cc48f86e4ef5395c4374a834}
+Sets the first element in queue to be valid. Use this function if you don't want queue functionality. 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+TuxControl.h\item 
+TuxControl.cpp\end{DoxyCompactItemize}

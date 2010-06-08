@@ -1,0 +1,53 @@
+\hypertarget{classClassificationTux}{
+\section{ClassificationTux Class Reference}
+\label{classClassificationTux}\index{ClassificationTux@{ClassificationTux}}
+}
+
+
+{\ttfamily \#include $<$ClassificationTux.h$>$}Inheritance diagram for ClassificationTux::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classClassificationTux}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classClassificationTux_ac15bcd174a9f3a53a90da07bcf14d29f}{ClassificationTux} ()
+\item 
+virtual \hyperlink{classClassificationTux_a782b740ccc0ff2726fe44564868dee47}{$\sim$ClassificationTux} ()
+\item 
+void \hyperlink{classClassificationTux_aa3824ae61c0d73ebff62c641793dc3ff}{threadMethod} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Simple class to remote control the super tux game. Class can be inherited to steer the penguin. \hyperlink{classTuxControlSingleton}{TuxControlSingleton} class has to be adapted, that it creates an instance of the right descendant of \hyperlink{classTuxControl}{TuxControl}. Since \hyperlink{classTuxControl}{TuxControl} itself offers all the necessary methods, \hyperlink{classTuxControlSingleton}{TuxControlSingleton} could also be used with the raw \hyperlink{classTuxControl}{TuxControl} implementation In that case the same instance of \hyperlink{classTuxControl}{TuxControl} (via \hyperlink{classTuxControlSingleton}{TuxControlSingleton}) would had to be aggregated from a separate thread to control the robot. With a mutex \hyperlink{classTuxControl}{TuxControl} is thread safe. Author: Lars Widmer, www.lawi.ch 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classClassificationTux_ac15bcd174a9f3a53a90da07bcf14d29f}{
+\index{ClassificationTux@{ClassificationTux}!ClassificationTux@{ClassificationTux}}
+\index{ClassificationTux@{ClassificationTux}!ClassificationTux@{ClassificationTux}}
+\subsubsection[{ClassificationTux}]{\setlength{\rightskip}{0pt plus 5cm}ClassificationTux::ClassificationTux ()}}
+\label{classClassificationTux_ac15bcd174a9f3a53a90da07bcf14d29f}
+Constructor: Initializes the object and all its aggregations. The class is a decendant from \hyperlink{classTuxControl}{TuxControl}. Uses the \hyperlink{classLearningAlgorithm}{LearningAlgorithm} implementation \hyperlink{classNearestClusterCenter}{NearestClusterCenter} to control super tux by gesture recognition with sensors. For the classification running in parallel a thread is started. \hypertarget{classClassificationTux_a782b740ccc0ff2726fe44564868dee47}{
+\index{ClassificationTux@{ClassificationTux}!$\sim$ClassificationTux@{$\sim$ClassificationTux}}
+\index{$\sim$ClassificationTux@{$\sim$ClassificationTux}!ClassificationTux@{ClassificationTux}}
+\subsubsection[{$\sim$ClassificationTux}]{\setlength{\rightskip}{0pt plus 5cm}ClassificationTux::$\sim$ClassificationTux ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classClassificationTux_a782b740ccc0ff2726fe44564868dee47}
+Stops the classification thread and cleans up. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classClassificationTux_aa3824ae61c0d73ebff62c641793dc3ff}{
+\index{ClassificationTux@{ClassificationTux}!threadMethod@{threadMethod}}
+\index{threadMethod@{threadMethod}!ClassificationTux@{ClassificationTux}}
+\subsubsection[{threadMethod}]{\setlength{\rightskip}{0pt plus 5cm}void ClassificationTux::threadMethod ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classClassificationTux_aa3824ae61c0d73ebff62c641793dc3ff}
+Actual thread method calling a classification method like continous or segmented and evaluate to generate the key events. 
+
+Reimplemented from \hyperlink{classThread_adc91220b96d25109b5f3ea73f8a75947}{Thread}.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+ClassificationTux.h\item 
+ClassificationTux.cpp\end{DoxyCompactItemize}

@@ -1,0 +1,28 @@
+\hypertarget{classTuxControlSingleton}{
+\section{TuxControlSingleton Class Reference}
+\label{classTuxControlSingleton}\index{TuxControlSingleton@{TuxControlSingleton}}
+}
+
+
+{\ttfamily \#include $<$TuxControlSingleton.h$>$}\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classTuxControl}{TuxControl} $\ast$ \hyperlink{classTuxControlSingleton_a5a4d9a1b916d18caf86b82f8aa7f4e78}{getInstance} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Singleton class limiting to one instance of \hyperlink{classTuxControl}{TuxControl}. Therefore the getInstance method always returns the pointer to the same instance of \hyperlink{classTuxControl}{TuxControl}. Of course singleton behaviour is only ensured if only this class gets used instead of \hyperlink{classTuxControl}{TuxControl} or it's descendant. Author: Lars Widmer, www.lawi.ch 
+
+\subsection{Member Function Documentation}
+\hypertarget{classTuxControlSingleton_a5a4d9a1b916d18caf86b82f8aa7f4e78}{
+\index{TuxControlSingleton@{TuxControlSingleton}!getInstance@{getInstance}}
+\index{getInstance@{getInstance}!TuxControlSingleton@{TuxControlSingleton}}
+\subsubsection[{getInstance}]{\setlength{\rightskip}{0pt plus 5cm}{\bf TuxControl} $\ast$ TuxControlSingleton::getInstance ()\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{classTuxControlSingleton_a5a4d9a1b916d18caf86b82f8aa7f4e78}
+Singleton constructor limiting to one instance of \hyperlink{classTuxControl}{TuxControl}. Therefore this method always returns the pointer to the same instance of \hyperlink{classTuxControl}{TuxControl}. Adapt the actual instatiation to use the required descendant of \hyperlink{classTuxControl}{TuxControl} (e.g. \hyperlink{classClassificationTux}{ClassificationTux}). 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+TuxControlSingleton.h\item 
+TuxControlSingleton.cpp\end{DoxyCompactItemize}

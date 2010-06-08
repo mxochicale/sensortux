@@ -1,0 +1,53 @@
+\hypertarget{classRoggenDataExtension}{
+\section{RoggenDataExtension Class Reference}
+\label{classRoggenDataExtension}\index{RoggenDataExtension@{RoggenDataExtension}}
+}
+
+
+{\ttfamily \#include $<$RoggenDataExtension.h$>$}Inheritance diagram for RoggenDataExtension::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classRoggenDataExtension}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRoggenDataExtension_a5521528f2ce09331562a55c25db1f3cd}{RoggenDataExtension} (\hyperlink{classIntSource}{IntSource} $\ast$)
+\item 
+virtual \hyperlink{classRoggenDataExtension_abe05c1ed873ba4af82a1a34d1ba49607}{$\sim$RoggenDataExtension} ()
+\item 
+virtual std::vector$<$ std::vector$<$ int $>$ $>$ \hyperlink{classRoggenDataExtension_a94526906d1299c091c646fe781aac0fd}{getData} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implements the same interface as the Sensor class itself. Therefore \hyperlink{classRoggenDataExtension}{RoggenDataExtension} and \hyperlink{classRoggenSensor}{RoggenSensor} can substitute themselfes. The idea of the extension is to compute additional values and append them to the original sensor measurements. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classRoggenDataExtension_a5521528f2ce09331562a55c25db1f3cd}{
+\index{RoggenDataExtension@{RoggenDataExtension}!RoggenDataExtension@{RoggenDataExtension}}
+\index{RoggenDataExtension@{RoggenDataExtension}!RoggenDataExtension@{RoggenDataExtension}}
+\subsubsection[{RoggenDataExtension}]{\setlength{\rightskip}{0pt plus 5cm}RoggenDataExtension::RoggenDataExtension ({\bf IntSource} $\ast$ {\em givenSource})}}
+\label{classRoggenDataExtension_a5521528f2ce09331562a55c25db1f3cd}
+Constructor: The original source has to be given when constructing the extension. This class just adds two computed measurements to the stream. \hypertarget{classRoggenDataExtension_abe05c1ed873ba4af82a1a34d1ba49607}{
+\index{RoggenDataExtension@{RoggenDataExtension}!$\sim$RoggenDataExtension@{$\sim$RoggenDataExtension}}
+\index{$\sim$RoggenDataExtension@{$\sim$RoggenDataExtension}!RoggenDataExtension@{RoggenDataExtension}}
+\subsubsection[{$\sim$RoggenDataExtension}]{\setlength{\rightskip}{0pt plus 5cm}RoggenDataExtension::$\sim$RoggenDataExtension ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classRoggenDataExtension_abe05c1ed873ba4af82a1a34d1ba49607}
+Empty destructor. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classRoggenDataExtension_a94526906d1299c091c646fe781aac0fd}{
+\index{RoggenDataExtension@{RoggenDataExtension}!getData@{getData}}
+\index{getData@{getData}!RoggenDataExtension@{RoggenDataExtension}}
+\subsubsection[{getData}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ int $>$ $>$ RoggenDataExtension::getData ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classRoggenDataExtension_a94526906d1299c091c646fe781aac0fd}
+Overwrites the \hyperlink{classRoggenDataExtension_a94526906d1299c091c646fe781aac0fd}{getData()} function of the \hyperlink{classIntSource}{IntSource} interface. The given data is used to compute two more measurements. The extra data then gets appended to the end of each frame. 
+
+Implements \hyperlink{classIntSource}{IntSource}.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+RoggenDataExtension.h\item 
+RoggenDataExtension.cpp\end{DoxyCompactItemize}

@@ -1,0 +1,102 @@
+\hypertarget{classThread}{
+\section{Thread Class Reference}
+\label{classThread}\index{Thread@{Thread}}
+}
+
+
+{\ttfamily \#include $<$Thread.h$>$}Inheritance diagram for Thread::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classThread}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classThread_a95c703fb8f2f27cb64f475a8c940864a}{Thread} ()
+\item 
+\hyperlink{classThread_ac0694151493165119c7ed053361c39da}{Thread} (bool)
+\item 
+\hyperlink{classThread_a32b9d6af7d10c905532fcfb3fa37b76e}{Thread} (void($\ast$meth)(void))
+\item 
+\hyperlink{classThread_ad0490fe492f3a40966fd7d4a7b23c802}{Thread} (void($\ast$meth)(void), bool)
+\item 
+virtual \hyperlink{classThread_a37d9edd3a1a776cbc27dedff949c9726}{$\sim$Thread} ()
+\item 
+void \hyperlink{classThread_ac504c0ff927a69c3a8e1a12f5a3addb8}{setThreadMethod} (void($\ast$meth)(void))
+\item 
+void \hyperlink{classThread_a5502205d727c00752f95af27a063d983}{startThread} ()
+\item 
+void \hyperlink{classThread_ac2bbc5e496966abd6d13d73f7e0810d6}{stopThread} ()
+\item 
+bool \hyperlink{classThread_ae088be9ac88ea8eaef813638c497f91b}{stopped} ()
+\item 
+virtual void \hyperlink{classThread_adc91220b96d25109b5f3ea73f8a75947}{threadMethod} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Author: Lars Widmer, www.lawi.ch 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classThread_a95c703fb8f2f27cb64f475a8c940864a}{
+\index{Thread@{Thread}!Thread@{Thread}}
+\index{Thread@{Thread}!Thread@{Thread}}
+\subsubsection[{Thread}]{\setlength{\rightskip}{0pt plus 5cm}Thread::Thread ()}}
+\label{classThread_a95c703fb8f2f27cb64f475a8c940864a}
+Constructor: Calls the init function to initialize the object. The thread isn't started by default. \hypertarget{classThread_ac0694151493165119c7ed053361c39da}{
+\index{Thread@{Thread}!Thread@{Thread}}
+\index{Thread@{Thread}!Thread@{Thread}}
+\subsubsection[{Thread}]{\setlength{\rightskip}{0pt plus 5cm}Thread::Thread (bool {\em autostart})}}
+\label{classThread_ac0694151493165119c7ed053361c39da}
+Constructor: If the parameter is set to true, the thread gets automatically started. \hypertarget{classThread_a32b9d6af7d10c905532fcfb3fa37b76e}{
+\index{Thread@{Thread}!Thread@{Thread}}
+\index{Thread@{Thread}!Thread@{Thread}}
+\subsubsection[{Thread}]{\setlength{\rightskip}{0pt plus 5cm}Thread::Thread (void($\ast$)(void) {\em meth})}}
+\label{classThread_a32b9d6af7d10c905532fcfb3fa37b76e}
+Constructor: The function in the parameter is used as thread function. This constructor could be helpful when aggregating this class. \hypertarget{classThread_ad0490fe492f3a40966fd7d4a7b23c802}{
+\index{Thread@{Thread}!Thread@{Thread}}
+\index{Thread@{Thread}!Thread@{Thread}}
+\subsubsection[{Thread}]{\setlength{\rightskip}{0pt plus 5cm}Thread::Thread (void($\ast$)(void) {\em meth}, \/  bool {\em autostart})}}
+\label{classThread_ad0490fe492f3a40966fd7d4a7b23c802}
+Constructor: The function in the first parameter is used as thread function. If the second parameter is set to true, the thread gets automatically started. This constructor could be helpful when aggregating this class. \hypertarget{classThread_a37d9edd3a1a776cbc27dedff949c9726}{
+\index{Thread@{Thread}!$\sim$Thread@{$\sim$Thread}}
+\index{$\sim$Thread@{$\sim$Thread}!Thread@{Thread}}
+\subsubsection[{$\sim$Thread}]{\setlength{\rightskip}{0pt plus 5cm}Thread::$\sim$Thread ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classThread_a37d9edd3a1a776cbc27dedff949c9726}
+Destructor: Stops the thread and cleans up. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classThread_ac504c0ff927a69c3a8e1a12f5a3addb8}{
+\index{Thread@{Thread}!setThreadMethod@{setThreadMethod}}
+\index{setThreadMethod@{setThreadMethod}!Thread@{Thread}}
+\subsubsection[{setThreadMethod}]{\setlength{\rightskip}{0pt plus 5cm}void Thread::setThreadMethod (void($\ast$)(void) {\em meth})}}
+\label{classThread_ac504c0ff927a69c3a8e1a12f5a3addb8}
+The function in the parameter is used as thread function. This constructor could be helpful when aggregating this class. \hypertarget{classThread_a5502205d727c00752f95af27a063d983}{
+\index{Thread@{Thread}!startThread@{startThread}}
+\index{startThread@{startThread}!Thread@{Thread}}
+\subsubsection[{startThread}]{\setlength{\rightskip}{0pt plus 5cm}void Thread::startThread ()}}
+\label{classThread_a5502205d727c00752f95af27a063d983}
+Starts the thread. \hypertarget{classThread_ae088be9ac88ea8eaef813638c497f91b}{
+\index{Thread@{Thread}!stopped@{stopped}}
+\index{stopped@{stopped}!Thread@{Thread}}
+\subsubsection[{stopped}]{\setlength{\rightskip}{0pt plus 5cm}bool Thread::stopped ()}}
+\label{classThread_ae088be9ac88ea8eaef813638c497f91b}
+Returns if the thread has been stopped. Use this method within the thread method. As soon as stopped gets true the thread method has to return. \hypertarget{classThread_ac2bbc5e496966abd6d13d73f7e0810d6}{
+\index{Thread@{Thread}!stopThread@{stopThread}}
+\index{stopThread@{stopThread}!Thread@{Thread}}
+\subsubsection[{stopThread}]{\setlength{\rightskip}{0pt plus 5cm}void Thread::stopThread ()}}
+\label{classThread_ac2bbc5e496966abd6d13d73f7e0810d6}
+Stops the thread and waits for its termination. \hypertarget{classThread_adc91220b96d25109b5f3ea73f8a75947}{
+\index{Thread@{Thread}!threadMethod@{threadMethod}}
+\index{threadMethod@{threadMethod}!Thread@{Thread}}
+\subsubsection[{threadMethod}]{\setlength{\rightskip}{0pt plus 5cm}void Thread::threadMethod ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classThread_adc91220b96d25109b5f3ea73f8a75947}
+By default this method calls the method set by setThreadMethod or the according constructors. If there hasn't been a method set a null pointer exception will occur. When inheriting this class this method should be overwritten! In general inheritance is the easier way of using this class. Aggregation is more useful when you want to have more then one thread. 
+
+Reimplemented in \hyperlink{classClassificationTux_aa3824ae61c0d73ebff62c641793dc3ff}{ClassificationTux}, and \hyperlink{classRepercussion_a903a946946c3393ea3a063d594e0fb91}{Repercussion}.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+Thread.h\item 
+Thread.cpp\end{DoxyCompactItemize}

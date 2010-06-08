@@ -1,0 +1,222 @@
+\hypertarget{classGestureManagement}{
+\section{GestureManagement Class Reference}
+\label{classGestureManagement}\index{GestureManagement@{GestureManagement}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classGestureManagement_add53dee17bdb4dc327d3a765fe54dab4}{GestureManagement} ()
+\item 
+virtual \hyperlink{classGestureManagement_ab4185a887ea40273198ac71b2ecb6bf1}{$\sim$GestureManagement} ()
+\item 
+bool \hyperlink{classGestureManagement_a7c776e3376dff513610ba4bf82cae796}{checkAllFiles} ()
+\item 
+void \hyperlink{classGestureManagement_aab8a8955b83bf07a872c458c2364d8fd}{updateBuffers} ()
+\item 
+void \hyperlink{classGestureManagement_aa9c5c851135b6c6f71201daa8bbcfe60}{fillBuffer} ()
+\item 
+bool \hyperlink{classGestureManagement_a7457d89ad122f30c74830cc237ba0677}{training} ()
+\item 
+void \hyperlink{classGestureManagement_a618ae355936c297079a3da77ee83f82f}{wait} ()
+\item 
+void \hyperlink{classGestureManagement_a0378e17242d054c60f7cfc21c80ba3a3}{reenter} ()
+\item 
+int \hyperlink{classGestureManagement_a97421724eb23c9b576a731ab084410da}{numberOfSensors} ()
+\item 
+void \hyperlink{classGestureManagement_aceff487c58b7a4e7a837b75207d6cf6e}{setBufferToEnergyFrameSize} (int)
+\item 
+void \hyperlink{classGestureManagement_ab5648ffc34fad5ab03d9c45c30d54196}{setBufferToEnergyFrameSize} ()
+\item 
+void \hyperlink{classGestureManagement_a3b2b18a390a23ea7a3e355d339945242}{setBufferToLongestGestureSize} (int)
+\item 
+void \hyperlink{classGestureManagement_a05cef685ea73cd6ec086c8f98a26cc66}{setBufferToLongestGestureSize} ()
+\item 
+bool \hyperlink{classGestureManagement_afad51301bfe33276f8f04e826aa61d41}{bufferFull} (int)
+\item 
+bool \hyperlink{classGestureManagement_a36208ebdd11b74bb7cd4a15cab22af48}{bufferFull} ()
+\item 
+bool \hyperlink{classGestureManagement_a7a3d84bf9ff0ac8f04ccf28603f49130}{gotEnergy} (int)
+\item 
+bool \hyperlink{classGestureManagement_a792bf83b1fe0b7cd3adee6a1ad967683}{gotEnergy} ()
+\item 
+bool \hyperlink{classGestureManagement_a770a0f62af7a5b74e2e942be7234a76c}{lostEnergy} (int)
+\item 
+bool \hyperlink{classGestureManagement_ad934138db81f43f1af34cacd6e080b01}{lostEnergy} ()
+\item 
+void \hyperlink{classGestureManagement_a3921a36bd1df37564eeae05f3b481b6b}{setBufferUnlimited} (int)
+\item 
+void \hyperlink{classGestureManagement_af9bbed6b1b9f4dca4923abbe86aab41b}{setBufferUnlimited} ()
+\item 
+bool \hyperlink{classGestureManagement_aafb7ac8ecc9567078fb3e4d76ff75f63}{isSensorTrained} (int)
+\item 
+std::pair$<$ \hyperlink{structOutput}{Output}, FeatureType $>$ \hyperlink{classGestureManagement_a3a2a232f68bcd55aa546df2df8c2faf4}{classify} (int)
+\item 
+std::pair$<$ \hyperlink{structOutput}{Output}, FeatureType $>$ \hyperlink{classGestureManagement_a640061cf24cb6663bb6a9660cb53ad18}{classify} (int, int)
+\item 
+bool \hyperlink{classGestureManagement_a4c11724fd1e387800056963e2318b70d}{isGestureLengthOk} (int, int)
+\item 
+int \hyperlink{classGestureManagement_a820208c72d103acd4a7712e83fb89ef0}{sensorOfGesture} (int)
+\item 
+bool \hyperlink{classGestureManagement_ac1cb3b54aca326d1f38d856b10c41d36}{continousMode} ()
+\item 
+int \hyperlink{classGestureManagement_aa389aa00c2f8f0bffcfb2765fda8b5dd}{numberOfGestures} ()
+\item 
+void \hyperlink{classGestureManagement_a8bc4dbaaf02e90d32624eb756ab4d712}{manageGestures} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classGestureManagement_add53dee17bdb4dc327d3a765fe54dab4}{
+\index{GestureManagement@{GestureManagement}!GestureManagement@{GestureManagement}}
+\index{GestureManagement@{GestureManagement}!GestureManagement@{GestureManagement}}
+\subsubsection[{GestureManagement}]{\setlength{\rightskip}{0pt plus 5cm}GestureManagement::GestureManagement ()}}
+\label{classGestureManagement_add53dee17bdb4dc327d3a765fe54dab4}
+Initialize and prepare the aggregated instances. \hypertarget{classGestureManagement_ab4185a887ea40273198ac71b2ecb6bf1}{
+\index{GestureManagement@{GestureManagement}!$\sim$GestureManagement@{$\sim$GestureManagement}}
+\index{$\sim$GestureManagement@{$\sim$GestureManagement}!GestureManagement@{GestureManagement}}
+\subsubsection[{$\sim$GestureManagement}]{\setlength{\rightskip}{0pt plus 5cm}GestureManagement::$\sim$GestureManagement ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classGestureManagement_ab4185a887ea40273198ac71b2ecb6bf1}
+Clean up and delete the the aggregated instances. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classGestureManagement_a36208ebdd11b74bb7cd4a15cab22af48}{
+\index{GestureManagement@{GestureManagement}!bufferFull@{bufferFull}}
+\index{bufferFull@{bufferFull}!GestureManagement@{GestureManagement}}
+\subsubsection[{bufferFull}]{\setlength{\rightskip}{0pt plus 5cm}bool GestureManagement::bufferFull ()}}
+\label{classGestureManagement_a36208ebdd11b74bb7cd4a15cab22af48}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Returns true if all buffers are full and serve as a queue. \hypertarget{classGestureManagement_afad51301bfe33276f8f04e826aa61d41}{
+\index{GestureManagement@{GestureManagement}!bufferFull@{bufferFull}}
+\index{bufferFull@{bufferFull}!GestureManagement@{GestureManagement}}
+\subsubsection[{bufferFull}]{\setlength{\rightskip}{0pt plus 5cm}bool GestureManagement::bufferFull (int {\em sensor})}}
+\label{classGestureManagement_afad51301bfe33276f8f04e826aa61d41}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Returns true if the buffer of the given sensor is full and servers as a queue. \hypertarget{classGestureManagement_a7c776e3376dff513610ba4bf82cae796}{
+\index{GestureManagement@{GestureManagement}!checkAllFiles@{checkAllFiles}}
+\index{checkAllFiles@{checkAllFiles}!GestureManagement@{GestureManagement}}
+\subsubsection[{checkAllFiles}]{\setlength{\rightskip}{0pt plus 5cm}bool GestureManagement::checkAllFiles ()}}
+\label{classGestureManagement_a7c776e3376dff513610ba4bf82cae796}
+Returns true if all necessary files for training are available. \hypertarget{classGestureManagement_a640061cf24cb6663bb6a9660cb53ad18}{
+\index{GestureManagement@{GestureManagement}!classify@{classify}}
+\index{classify@{classify}!GestureManagement@{GestureManagement}}
+\subsubsection[{classify}]{\setlength{\rightskip}{0pt plus 5cm}pair$<$ {\bf Output}, FeatureType $>$ GestureManagement::classify (int {\em sensor}, \/  int {\em gesture})}}
+\label{classGestureManagement_a640061cf24cb6663bb6a9660cb53ad18}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Calls the classification function of the learning algorithm for the size of the given gesture. This method is used for continous classification. \hypertarget{classGestureManagement_a3a2a232f68bcd55aa546df2df8c2faf4}{
+\index{GestureManagement@{GestureManagement}!classify@{classify}}
+\index{classify@{classify}!GestureManagement@{GestureManagement}}
+\subsubsection[{classify}]{\setlength{\rightskip}{0pt plus 5cm}pair$<$ {\bf Output}, FeatureType $>$ GestureManagement::classify (int {\em sensor})}}
+\label{classGestureManagement_a3a2a232f68bcd55aa546df2df8c2faf4}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Calls the classification function of the learning algorithm. \hypertarget{classGestureManagement_ac1cb3b54aca326d1f38d856b10c41d36}{
+\index{GestureManagement@{GestureManagement}!continousMode@{continousMode}}
+\index{continousMode@{continousMode}!GestureManagement@{GestureManagement}}
+\subsubsection[{continousMode}]{\setlength{\rightskip}{0pt plus 5cm}bool GestureManagement::continousMode ()}}
+\label{classGestureManagement_ac1cb3b54aca326d1f38d856b10c41d36}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Returns true if the mode is set to continous classification. This can be set in the configuration file. \hypertarget{classGestureManagement_aa9c5c851135b6c6f71201daa8bbcfe60}{
+\index{GestureManagement@{GestureManagement}!fillBuffer@{fillBuffer}}
+\index{fillBuffer@{fillBuffer}!GestureManagement@{GestureManagement}}
+\subsubsection[{fillBuffer}]{\setlength{\rightskip}{0pt plus 5cm}void GestureManagement::fillBuffer ()}}
+\label{classGestureManagement_aa9c5c851135b6c6f71201daa8bbcfe60}
+Read and store data until the buffer is full. \hypertarget{classGestureManagement_a792bf83b1fe0b7cd3adee6a1ad967683}{
+\index{GestureManagement@{GestureManagement}!gotEnergy@{gotEnergy}}
+\index{gotEnergy@{gotEnergy}!GestureManagement@{GestureManagement}}
+\subsubsection[{gotEnergy}]{\setlength{\rightskip}{0pt plus 5cm}bool GestureManagement::gotEnergy ()}}
+\label{classGestureManagement_a792bf83b1fe0b7cd3adee6a1ad967683}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Returns true when all sensors (0, 1, ...) are active. \hypertarget{classGestureManagement_a7a3d84bf9ff0ac8f04ccf28603f49130}{
+\index{GestureManagement@{GestureManagement}!gotEnergy@{gotEnergy}}
+\index{gotEnergy@{gotEnergy}!GestureManagement@{GestureManagement}}
+\subsubsection[{gotEnergy}]{\setlength{\rightskip}{0pt plus 5cm}bool GestureManagement::gotEnergy (int {\em sensor})}}
+\label{classGestureManagement_a7a3d84bf9ff0ac8f04ccf28603f49130}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Returns true when the given sensor (0, 1, ...) is active. \hypertarget{classGestureManagement_a4c11724fd1e387800056963e2318b70d}{
+\index{GestureManagement@{GestureManagement}!isGestureLengthOk@{isGestureLengthOk}}
+\index{isGestureLengthOk@{isGestureLengthOk}!GestureManagement@{GestureManagement}}
+\subsubsection[{isGestureLengthOk}]{\setlength{\rightskip}{0pt plus 5cm}bool GestureManagement::isGestureLengthOk (int {\em sensor}, \/  int {\em gesture})}}
+\label{classGestureManagement_a4c11724fd1e387800056963e2318b70d}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Checks if the gesture length we got by energy based segmentation is in the same range as the recorded movements for this gestures. This method is used for segmented classification. \hypertarget{classGestureManagement_aafb7ac8ecc9567078fb3e4d76ff75f63}{
+\index{GestureManagement@{GestureManagement}!isSensorTrained@{isSensorTrained}}
+\index{isSensorTrained@{isSensorTrained}!GestureManagement@{GestureManagement}}
+\subsubsection[{isSensorTrained}]{\setlength{\rightskip}{0pt plus 5cm}bool GestureManagement::isSensorTrained (int {\em sensor})}}
+\label{classGestureManagement_aafb7ac8ecc9567078fb3e4d76ff75f63}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Returns true if the given sensor is used for recognition and has been trained. \hypertarget{classGestureManagement_ad934138db81f43f1af34cacd6e080b01}{
+\index{GestureManagement@{GestureManagement}!lostEnergy@{lostEnergy}}
+\index{lostEnergy@{lostEnergy}!GestureManagement@{GestureManagement}}
+\subsubsection[{lostEnergy}]{\setlength{\rightskip}{0pt plus 5cm}bool GestureManagement::lostEnergy ()}}
+\label{classGestureManagement_ad934138db81f43f1af34cacd6e080b01}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Returns true when all sensors (0, 1, ...) are inactive. \hypertarget{classGestureManagement_a770a0f62af7a5b74e2e942be7234a76c}{
+\index{GestureManagement@{GestureManagement}!lostEnergy@{lostEnergy}}
+\index{lostEnergy@{lostEnergy}!GestureManagement@{GestureManagement}}
+\subsubsection[{lostEnergy}]{\setlength{\rightskip}{0pt plus 5cm}bool GestureManagement::lostEnergy (int {\em sensor})}}
+\label{classGestureManagement_a770a0f62af7a5b74e2e942be7234a76c}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Returns true when the given sensor (0, 1, ...) is inactive. \hypertarget{classGestureManagement_a8bc4dbaaf02e90d32624eb756ab4d712}{
+\index{GestureManagement@{GestureManagement}!manageGestures@{manageGestures}}
+\index{manageGestures@{manageGestures}!GestureManagement@{GestureManagement}}
+\subsubsection[{manageGestures}]{\setlength{\rightskip}{0pt plus 5cm}void GestureManagement::manageGestures ()}}
+\label{classGestureManagement_a8bc4dbaaf02e90d32624eb756ab4d712}
+Highest level function. Calls mainLoop. \hypertarget{classGestureManagement_aa389aa00c2f8f0bffcfb2765fda8b5dd}{
+\index{GestureManagement@{GestureManagement}!numberOfGestures@{numberOfGestures}}
+\index{numberOfGestures@{numberOfGestures}!GestureManagement@{GestureManagement}}
+\subsubsection[{numberOfGestures}]{\setlength{\rightskip}{0pt plus 5cm}int GestureManagement::numberOfGestures ()}}
+\label{classGestureManagement_aa389aa00c2f8f0bffcfb2765fda8b5dd}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Returns the number of gestures. Gestures are numbered from zero to number of gestures -\/ 1. \hypertarget{classGestureManagement_a97421724eb23c9b576a731ab084410da}{
+\index{GestureManagement@{GestureManagement}!numberOfSensors@{numberOfSensors}}
+\index{numberOfSensors@{numberOfSensors}!GestureManagement@{GestureManagement}}
+\subsubsection[{numberOfSensors}]{\setlength{\rightskip}{0pt plus 5cm}int GestureManagement::numberOfSensors ()}}
+\label{classGestureManagement_a97421724eb23c9b576a731ab084410da}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Returns the number of sensors used as defined in the configuration file. \hypertarget{classGestureManagement_a0378e17242d054c60f7cfc21c80ba3a3}{
+\index{GestureManagement@{GestureManagement}!reenter@{reenter}}
+\index{reenter@{reenter}!GestureManagement@{GestureManagement}}
+\subsubsection[{reenter}]{\setlength{\rightskip}{0pt plus 5cm}void GestureManagement::reenter ()}}
+\label{classGestureManagement_a0378e17242d054c60f7cfc21c80ba3a3}
+Wait until all sensors are inactive. \hypertarget{classGestureManagement_a820208c72d103acd4a7712e83fb89ef0}{
+\index{GestureManagement@{GestureManagement}!sensorOfGesture@{sensorOfGesture}}
+\index{sensorOfGesture@{sensorOfGesture}!GestureManagement@{GestureManagement}}
+\subsubsection[{sensorOfGesture}]{\setlength{\rightskip}{0pt plus 5cm}int GestureManagement::sensorOfGesture (int {\em gesture})}}
+\label{classGestureManagement_a820208c72d103acd4a7712e83fb89ef0}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Returns the number of the sensor for a given gesture number. Both are numbered internally from zero onwards. Basically this method accesses the activity information. For a given gesture it tells which sensor is the active one. \hypertarget{classGestureManagement_ab5648ffc34fad5ab03d9c45c30d54196}{
+\index{GestureManagement@{GestureManagement}!setBufferToEnergyFrameSize@{setBufferToEnergyFrameSize}}
+\index{setBufferToEnergyFrameSize@{setBufferToEnergyFrameSize}!GestureManagement@{GestureManagement}}
+\subsubsection[{setBufferToEnergyFrameSize}]{\setlength{\rightskip}{0pt plus 5cm}void GestureManagement::setBufferToEnergyFrameSize ()}}
+\label{classGestureManagement_ab5648ffc34fad5ab03d9c45c30d54196}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Sets all buffers to the size for energy based segmentation. This size can be configured in the configuration file. \hypertarget{classGestureManagement_aceff487c58b7a4e7a837b75207d6cf6e}{
+\index{GestureManagement@{GestureManagement}!setBufferToEnergyFrameSize@{setBufferToEnergyFrameSize}}
+\index{setBufferToEnergyFrameSize@{setBufferToEnergyFrameSize}!GestureManagement@{GestureManagement}}
+\subsubsection[{setBufferToEnergyFrameSize}]{\setlength{\rightskip}{0pt plus 5cm}void GestureManagement::setBufferToEnergyFrameSize (int {\em sensor})}}
+\label{classGestureManagement_aceff487c58b7a4e7a837b75207d6cf6e}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Sets the buffer of the given sensor to the size for energy based segmentation. This size can be configured in the configuration file. \hypertarget{classGestureManagement_a05cef685ea73cd6ec086c8f98a26cc66}{
+\index{GestureManagement@{GestureManagement}!setBufferToLongestGestureSize@{setBufferToLongestGestureSize}}
+\index{setBufferToLongestGestureSize@{setBufferToLongestGestureSize}!GestureManagement@{GestureManagement}}
+\subsubsection[{setBufferToLongestGestureSize}]{\setlength{\rightskip}{0pt plus 5cm}void GestureManagement::setBufferToLongestGestureSize ()}}
+\label{classGestureManagement_a05cef685ea73cd6ec086c8f98a26cc66}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Sets all buffers to the size long enough that even the longest recorded gesture will fit inside. Before this method readData or training have to be called. \hypertarget{classGestureManagement_a3b2b18a390a23ea7a3e355d339945242}{
+\index{GestureManagement@{GestureManagement}!setBufferToLongestGestureSize@{setBufferToLongestGestureSize}}
+\index{setBufferToLongestGestureSize@{setBufferToLongestGestureSize}!GestureManagement@{GestureManagement}}
+\subsubsection[{setBufferToLongestGestureSize}]{\setlength{\rightskip}{0pt plus 5cm}void GestureManagement::setBufferToLongestGestureSize (int {\em sensor})}}
+\label{classGestureManagement_a3b2b18a390a23ea7a3e355d339945242}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Sets the buffer of the given sensor to the size long enough that even the longest recorded gesture fits inside. Before this method readData or training have to be called. \hypertarget{classGestureManagement_af9bbed6b1b9f4dca4923abbe86aab41b}{
+\index{GestureManagement@{GestureManagement}!setBufferUnlimited@{setBufferUnlimited}}
+\index{setBufferUnlimited@{setBufferUnlimited}!GestureManagement@{GestureManagement}}
+\subsubsection[{setBufferUnlimited}]{\setlength{\rightskip}{0pt plus 5cm}void GestureManagement::setBufferUnlimited ()}}
+\label{classGestureManagement_af9bbed6b1b9f4dca4923abbe86aab41b}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Sets all buffers to unlimited size. So they will never remove frames from the queue. \hypertarget{classGestureManagement_a3921a36bd1df37564eeae05f3b481b6b}{
+\index{GestureManagement@{GestureManagement}!setBufferUnlimited@{setBufferUnlimited}}
+\index{setBufferUnlimited@{setBufferUnlimited}!GestureManagement@{GestureManagement}}
+\subsubsection[{setBufferUnlimited}]{\setlength{\rightskip}{0pt plus 5cm}void GestureManagement::setBufferUnlimited (int {\em sensor})}}
+\label{classGestureManagement_a3921a36bd1df37564eeae05f3b481b6b}
+Method used by the \hyperlink{classClassificationTux}{ClassificationTux} class. Sets the buffer of the given sensor (0,1,...) to unlimited size. So it will never remove frames from the queue. \hypertarget{classGestureManagement_a7457d89ad122f30c74830cc237ba0677}{
+\index{GestureManagement@{GestureManagement}!training@{training}}
+\index{training@{training}!GestureManagement@{GestureManagement}}
+\subsubsection[{training}]{\setlength{\rightskip}{0pt plus 5cm}bool GestureManagement::training ()}}
+\label{classGestureManagement_a7457d89ad122f30c74830cc237ba0677}
+High level method calls all necessary methods for training the algorithm. First the gesture data is loaded from disk. Then inactive sensors are removed and the algorithm gets trained. \hypertarget{classGestureManagement_aab8a8955b83bf07a872c458c2364d8fd}{
+\index{GestureManagement@{GestureManagement}!updateBuffers@{updateBuffers}}
+\index{updateBuffers@{updateBuffers}!GestureManagement@{GestureManagement}}
+\subsubsection[{updateBuffers}]{\setlength{\rightskip}{0pt plus 5cm}void GestureManagement::updateBuffers ()}}
+\label{classGestureManagement_aab8a8955b83bf07a872c458c2364d8fd}
+Read data from the sensors and put it to the buffers. \hypertarget{classGestureManagement_a618ae355936c297079a3da77ee83f82f}{
+\index{GestureManagement@{GestureManagement}!wait@{wait}}
+\index{wait@{wait}!GestureManagement@{GestureManagement}}
+\subsubsection[{wait}]{\setlength{\rightskip}{0pt plus 5cm}void GestureManagement::wait ()}}
+\label{classGestureManagement_a618ae355936c297079a3da77ee83f82f}
+Wait for the user hitting a key while still updating the buffer with current sensor data. 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+GestureManagement.h\item 
+GestureManagement.cpp\end{DoxyCompactItemize}

@@ -1,0 +1,963 @@
+<?xml version="1.0" ?>
+<File Name="recorded roggen data">
+    <Data Name="" Num="0">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="16" />
+            <Int Num="486" />
+            <Int Num="514" />
+            <Int Num="426" />
+            <Int Num="-285" />
+            <Int Num="-65" />
+            <Int Num="-950" />
+            <Int Num="413" />
+            <Int Num="408" />
+            <Int Num="413" />
+            <Int Num="411" />
+            <Int Num="413" />
+            <Int Num="-10" />
+            <Int Num="-4" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="1">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="17" />
+            <Int Num="481" />
+            <Int Num="510" />
+            <Int Num="425" />
+            <Int Num="-333" />
+            <Int Num="-102" />
+            <Int Num="-960" />
+            <Int Num="412" />
+            <Int Num="400" />
+            <Int Num="413" />
+            <Int Num="406" />
+            <Int Num="416" />
+            <Int Num="-32" />
+            <Int Num="-20" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="2">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="18" />
+            <Int Num="471" />
+            <Int Num="509" />
+            <Int Num="430" />
+            <Int Num="-428" />
+            <Int Num="-112" />
+            <Int Num="-910" />
+            <Int Num="403" />
+            <Int Num="362" />
+            <Int Num="410" />
+            <Int Num="391" />
+            <Int Num="415" />
+            <Int Num="-106" />
+            <Int Num="-48" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="3">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="19" />
+            <Int Num="431" />
+            <Int Num="505" />
+            <Int Num="442" />
+            <Int Num="-809" />
+            <Int Num="-149" />
+            <Int Num="-792" />
+            <Int Num="383" />
+            <Int Num="248" />
+            <Int Num="406" />
+            <Int Num="370" />
+            <Int Num="414" />
+            <Int Num="-332" />
+            <Int Num="-88" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="4">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="20" />
+            <Int Num="395" />
+            <Int Num="494" />
+            <Int Num="452" />
+            <Int Num="-1152" />
+            <Int Num="-252" />
+            <Int Num="-693" />
+            <Int Num="341" />
+            <Int Num="49" />
+            <Int Num="402" />
+            <Int Num="354" />
+            <Int Num="415" />
+            <Int Num="-732" />
+            <Int Num="-122" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="5">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="21" />
+            <Int Num="413" />
+            <Int Num="493" />
+            <Int Num="450" />
+            <Int Num="-980" />
+            <Int Num="-261" />
+            <Int Num="-712" />
+            <Int Num="303" />
+            <Int Num="0" />
+            <Int Num="404" />
+            <Int Num="365" />
+            <Int Num="414" />
+            <Int Num="-828" />
+            <Int Num="-98" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="6">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="22" />
+            <Int Num="515" />
+            <Int Num="485" />
+            <Int Num="405" />
+            <Int Num="-9" />
+            <Int Num="-336" />
+            <Int Num="-1158" />
+            <Int Num="302" />
+            <Int Num="1" />
+            <Int Num="399" />
+            <Int Num="341" />
+            <Int Num="417" />
+            <Int Num="-832" />
+            <Int Num="-152" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="7">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="23" />
+            <Int Num="587" />
+            <Int Num="488" />
+            <Int Num="347" />
+            <Int Num="676" />
+            <Int Num="-308" />
+            <Int Num="-1732" />
+            <Int Num="331" />
+            <Int Num="57" />
+            <Int Num="394" />
+            <Int Num="310" />
+            <Int Num="418" />
+            <Int Num="-722" />
+            <Int Num="-216" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="8">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="24" />
+            <Int Num="579" />
+            <Int Num="492" />
+            <Int Num="336" />
+            <Int Num="600" />
+            <Int Num="-271" />
+            <Int Num="-1841" />
+            <Int Num="363" />
+            <Int Num="196" />
+            <Int Num="389" />
+            <Int Num="293" />
+            <Int Num="413" />
+            <Int Num="-434" />
+            <Int Num="-240" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="9">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="25" />
+            <Int Num="553" />
+            <Int Num="496" />
+            <Int Num="352" />
+            <Int Num="352" />
+            <Int Num="-233" />
+            <Int Num="-1683" />
+            <Int Num="389" />
+            <Int Num="300" />
+            <Int Num="384" />
+            <Int Num="274" />
+            <Int Num="416" />
+            <Int Num="-232" />
+            <Int Num="-284" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="10">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="26" />
+            <Int Num="518" />
+            <Int Num="501" />
+            <Int Num="392" />
+            <Int Num="19" />
+            <Int Num="-186" />
+            <Int Num="-1287" />
+            <Int Num="397" />
+            <Int Num="333" />
+            <Int Num="382" />
+            <Int Num="263" />
+            <Int Num="417" />
+            <Int Num="-168" />
+            <Int Num="-308" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="11">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="27" />
+            <Int Num="520" />
+            <Int Num="501" />
+            <Int Num="412" />
+            <Int Num="38" />
+            <Int Num="-186" />
+            <Int Num="-1089" />
+            <Int Num="400" />
+            <Int Num="349" />
+            <Int Num="381" />
+            <Int Num="259" />
+            <Int Num="414" />
+            <Int Num="-130" />
+            <Int Num="-310" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="12">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="28" />
+            <Int Num="540" />
+            <Int Num="512" />
+            <Int Num="442" />
+            <Int Num="228" />
+            <Int Num="-84" />
+            <Int Num="-792" />
+            <Int Num="407" />
+            <Int Num="361" />
+            <Int Num="380" />
+            <Int Num="265" />
+            <Int Num="415" />
+            <Int Num="-108" />
+            <Int Num="-300" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="13">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="29" />
+            <Int Num="549" />
+            <Int Num="517" />
+            <Int Num="457" />
+            <Int Num="314" />
+            <Int Num="-37" />
+            <Int Num="-643" />
+            <Int Num="406" />
+            <Int Num="378" />
+            <Int Num="382" />
+            <Int Num="262" />
+            <Int Num="415" />
+            <Int Num="-74" />
+            <Int Num="-306" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="14">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="30" />
+            <Int Num="536" />
+            <Int Num="522" />
+            <Int Num="469" />
+            <Int Num="190" />
+            <Int Num="9" />
+            <Int Num="-524" />
+            <Int Num="407" />
+            <Int Num="377" />
+            <Int Num="382" />
+            <Int Num="271" />
+            <Int Num="414" />
+            <Int Num="-74" />
+            <Int Num="-286" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="15">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="31" />
+            <Int Num="542" />
+            <Int Num="521" />
+            <Int Num="472" />
+            <Int Num="247" />
+            <Int Num="0" />
+            <Int Num="-495" />
+            <Int Num="408" />
+            <Int Num="386" />
+            <Int Num="385" />
+            <Int Num="275" />
+            <Int Num="416" />
+            <Int Num="-60" />
+            <Int Num="-282" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="16">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="32" />
+            <Int Num="574" />
+            <Int Num="526" />
+            <Int Num="483" />
+            <Int Num="552" />
+            <Int Num="46" />
+            <Int Num="-386" />
+            <Int Num="410" />
+            <Int Num="393" />
+            <Int Num="386" />
+            <Int Num="283" />
+            <Int Num="414" />
+            <Int Num="-42" />
+            <Int Num="-262" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="17">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="33" />
+            <Int Num="604" />
+            <Int Num="536" />
+            <Int Num="496" />
+            <Int Num="838" />
+            <Int Num="140" />
+            <Int Num="-257" />
+            <Int Num="411" />
+            <Int Num="403" />
+            <Int Num="387" />
+            <Int Num="292" />
+            <Int Num="415" />
+            <Int Num="-24" />
+            <Int Num="-246" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="18">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="34" />
+            <Int Num="621" />
+            <Int Num="540" />
+            <Int Num="502" />
+            <Int Num="1000" />
+            <Int Num="177" />
+            <Int Num="-198" />
+            <Int Num="415" />
+            <Int Num="411" />
+            <Int Num="390" />
+            <Int Num="304" />
+            <Int Num="415" />
+            <Int Num="-8" />
+            <Int Num="-222" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="19">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="35" />
+            <Int Num="630" />
+            <Int Num="547" />
+            <Int Num="508" />
+            <Int Num="1085" />
+            <Int Num="242" />
+            <Int Num="-138" />
+            <Int Num="414" />
+            <Int Num="411" />
+            <Int Num="392" />
+            <Int Num="317" />
+            <Int Num="415" />
+            <Int Num="-8" />
+            <Int Num="-196" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="20">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="36" />
+            <Int Num="635" />
+            <Int Num="553" />
+            <Int Num="509" />
+            <Int Num="1133" />
+            <Int Num="299" />
+            <Int Num="-128" />
+            <Int Num="414" />
+            <Int Num="415" />
+            <Int Num="396" />
+            <Int Num="329" />
+            <Int Num="415" />
+            <Int Num="0" />
+            <Int Num="-172" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="21">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="37" />
+            <Int Num="640" />
+            <Int Num="554" />
+            <Int Num="502" />
+            <Int Num="1180" />
+            <Int Num="308" />
+            <Int Num="-198" />
+            <Int Num="418" />
+            <Int Num="418" />
+            <Int Num="399" />
+            <Int Num="341" />
+            <Int Num="417" />
+            <Int Num="2" />
+            <Int Num="-152" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="22">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="38" />
+            <Int Num="641" />
+            <Int Num="556" />
+            <Int Num="505" />
+            <Int Num="1190" />
+            <Int Num="327" />
+            <Int Num="-168" />
+            <Int Num="415" />
+            <Int Num="416" />
+            <Int Num="400" />
+            <Int Num="355" />
+            <Int Num="415" />
+            <Int Num="2" />
+            <Int Num="-120" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="23">
+        <Definition />
+        <Numbers>
+            <Int Num="123" />
+            <Int Num="39" />
+            <Int Num="643" />
+            <Int Num="559" />
+            <Int Num="507" />
+            <Int Num="1209" />
+            <Int Num="355" />
+            <Int Num="-148" />
+            <Int Num="417" />
+            <Int Num="421" />
+            <Int Num="405" />
+            <Int Num="366" />
+            <Int Num="416" />
+            <Int Num="10" />
+            <Int Num="-100" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="24">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="204" />
+            <Int Num="529" />
+            <Int Num="507" />
+            <Int Num="424" />
+            <Int Num="165" />
+            <Int Num="-123" />
+            <Int Num="-980" />
+            <Int Num="407" />
+            <Int Num="377" />
+            <Int Num="412" />
+            <Int Num="408" />
+            <Int Num="415" />
+            <Int Num="-76" />
+            <Int Num="-14" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="25">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="205" />
+            <Int Num="530" />
+            <Int Num="509" />
+            <Int Num="424" />
+            <Int Num="174" />
+            <Int Num="-104" />
+            <Int Num="-980" />
+            <Int Num="406" />
+            <Int Num="377" />
+            <Int Num="412" />
+            <Int Num="405" />
+            <Int Num="413" />
+            <Int Num="-72" />
+            <Int Num="-16" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="26">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="206" />
+            <Int Num="531" />
+            <Int Num="509" />
+            <Int Num="426" />
+            <Int Num="184" />
+            <Int Num="-104" />
+            <Int Num="-960" />
+            <Int Num="406" />
+            <Int Num="377" />
+            <Int Num="413" />
+            <Int Num="408" />
+            <Int Num="415" />
+            <Int Num="-76" />
+            <Int Num="-14" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="27">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="207" />
+            <Int Num="529" />
+            <Int Num="510" />
+            <Int Num="425" />
+            <Int Num="165" />
+            <Int Num="-95" />
+            <Int Num="-970" />
+            <Int Num="405" />
+            <Int Num="376" />
+            <Int Num="413" />
+            <Int Num="407" />
+            <Int Num="414" />
+            <Int Num="-76" />
+            <Int Num="-14" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="28">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="208" />
+            <Int Num="531" />
+            <Int Num="509" />
+            <Int Num="423" />
+            <Int Num="184" />
+            <Int Num="-104" />
+            <Int Num="-990" />
+            <Int Num="407" />
+            <Int Num="380" />
+            <Int Num="413" />
+            <Int Num="407" />
+            <Int Num="416" />
+            <Int Num="-72" />
+            <Int Num="-18" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="29">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="209" />
+            <Int Num="530" />
+            <Int Num="510" />
+            <Int Num="423" />
+            <Int Num="174" />
+            <Int Num="-95" />
+            <Int Num="-990" />
+            <Int Num="408" />
+            <Int Num="376" />
+            <Int Num="415" />
+            <Int Num="407" />
+            <Int Num="414" />
+            <Int Num="-76" />
+            <Int Num="-14" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="30">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="210" />
+            <Int Num="531" />
+            <Int Num="510" />
+            <Int Num="423" />
+            <Int Num="184" />
+            <Int Num="-95" />
+            <Int Num="-990" />
+            <Int Num="406" />
+            <Int Num="377" />
+            <Int Num="412" />
+            <Int Num="406" />
+            <Int Num="413" />
+            <Int Num="-72" />
+            <Int Num="-14" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="31">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="211" />
+            <Int Num="531" />
+            <Int Num="509" />
+            <Int Num="426" />
+            <Int Num="184" />
+            <Int Num="-104" />
+            <Int Num="-960" />
+            <Int Num="406" />
+            <Int Num="378" />
+            <Int Num="413" />
+            <Int Num="408" />
+            <Int Num="414" />
+            <Int Num="-72" />
+            <Int Num="-12" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="32">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="212" />
+            <Int Num="528" />
+            <Int Num="509" />
+            <Int Num="424" />
+            <Int Num="155" />
+            <Int Num="-104" />
+            <Int Num="-980" />
+            <Int Num="406" />
+            <Int Num="377" />
+            <Int Num="414" />
+            <Int Num="410" />
+            <Int Num="415" />
+            <Int Num="-76" />
+            <Int Num="-10" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="33">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="213" />
+            <Int Num="530" />
+            <Int Num="510" />
+            <Int Num="423" />
+            <Int Num="174" />
+            <Int Num="-95" />
+            <Int Num="-990" />
+            <Int Num="406" />
+            <Int Num="376" />
+            <Int Num="413" />
+            <Int Num="408" />
+            <Int Num="413" />
+            <Int Num="-74" />
+            <Int Num="-10" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="34">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="214" />
+            <Int Num="528" />
+            <Int Num="509" />
+            <Int Num="425" />
+            <Int Num="155" />
+            <Int Num="-104" />
+            <Int Num="-970" />
+            <Int Num="406" />
+            <Int Num="378" />
+            <Int Num="413" />
+            <Int Num="410" />
+            <Int Num="416" />
+            <Int Num="-76" />
+            <Int Num="-12" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="35">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="215" />
+            <Int Num="530" />
+            <Int Num="507" />
+            <Int Num="425" />
+            <Int Num="174" />
+            <Int Num="-123" />
+            <Int Num="-970" />
+            <Int Num="407" />
+            <Int Num="376" />
+            <Int Num="413" />
+            <Int Num="406" />
+            <Int Num="415" />
+            <Int Num="-78" />
+            <Int Num="-18" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="36">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="216" />
+            <Int Num="532" />
+            <Int Num="508" />
+            <Int Num="426" />
+            <Int Num="194" />
+            <Int Num="-114" />
+            <Int Num="-960" />
+            <Int Num="406" />
+            <Int Num="375" />
+            <Int Num="412" />
+            <Int Num="408" />
+            <Int Num="414" />
+            <Int Num="-78" />
+            <Int Num="-12" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="37">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="217" />
+            <Int Num="529" />
+            <Int Num="509" />
+            <Int Num="427" />
+            <Int Num="165" />
+            <Int Num="-104" />
+            <Int Num="-950" />
+            <Int Num="406" />
+            <Int Num="376" />
+            <Int Num="415" />
+            <Int Num="409" />
+            <Int Num="414" />
+            <Int Num="-76" />
+            <Int Num="-10" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="38">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="218" />
+            <Int Num="531" />
+            <Int Num="509" />
+            <Int Num="423" />
+            <Int Num="184" />
+            <Int Num="-104" />
+            <Int Num="-990" />
+            <Int Num="406" />
+            <Int Num="375" />
+            <Int Num="413" />
+            <Int Num="407" />
+            <Int Num="413" />
+            <Int Num="-76" />
+            <Int Num="-12" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="39">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="219" />
+            <Int Num="531" />
+            <Int Num="508" />
+            <Int Num="424" />
+            <Int Num="184" />
+            <Int Num="-114" />
+            <Int Num="-980" />
+            <Int Num="406" />
+            <Int Num="376" />
+            <Int Num="411" />
+            <Int Num="407" />
+            <Int Num="415" />
+            <Int Num="-78" />
+            <Int Num="-16" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="40">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="220" />
+            <Int Num="533" />
+            <Int Num="507" />
+            <Int Num="425" />
+            <Int Num="203" />
+            <Int Num="-123" />
+            <Int Num="-970" />
+            <Int Num="407" />
+            <Int Num="378" />
+            <Int Num="413" />
+            <Int Num="407" />
+            <Int Num="415" />
+            <Int Num="-74" />
+            <Int Num="-16" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="41">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="221" />
+            <Int Num="531" />
+            <Int Num="506" />
+            <Int Num="423" />
+            <Int Num="184" />
+            <Int Num="-133" />
+            <Int Num="-990" />
+            <Int Num="406" />
+            <Int Num="376" />
+            <Int Num="412" />
+            <Int Num="407" />
+            <Int Num="414" />
+            <Int Num="-76" />
+            <Int Num="-14" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="42">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="222" />
+            <Int Num="530" />
+            <Int Num="509" />
+            <Int Num="424" />
+            <Int Num="174" />
+            <Int Num="-104" />
+            <Int Num="-980" />
+            <Int Num="405" />
+            <Int Num="377" />
+            <Int Num="413" />
+            <Int Num="407" />
+            <Int Num="414" />
+            <Int Num="-74" />
+            <Int Num="-14" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="43">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="223" />
+            <Int Num="530" />
+            <Int Num="509" />
+            <Int Num="424" />
+            <Int Num="174" />
+            <Int Num="-104" />
+            <Int Num="-980" />
+            <Int Num="407" />
+            <Int Num="376" />
+            <Int Num="415" />
+            <Int Num="408" />
+            <Int Num="415" />
+            <Int Num="-78" />
+            <Int Num="-14" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="44">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="224" />
+            <Int Num="531" />
+            <Int Num="507" />
+            <Int Num="423" />
+            <Int Num="184" />
+            <Int Num="-123" />
+            <Int Num="-990" />
+            <Int Num="406" />
+            <Int Num="377" />
+            <Int Num="411" />
+            <Int Num="407" />
+            <Int Num="415" />
+            <Int Num="-76" />
+            <Int Num="-16" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="45">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="225" />
+            <Int Num="530" />
+            <Int Num="509" />
+            <Int Num="424" />
+            <Int Num="174" />
+            <Int Num="-104" />
+            <Int Num="-980" />
+            <Int Num="406" />
+            <Int Num="377" />
+            <Int Num="412" />
+            <Int Num="405" />
+            <Int Num="413" />
+            <Int Num="-72" />
+            <Int Num="-16" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="46">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="226" />
+            <Int Num="534" />
+            <Int Num="506" />
+            <Int Num="426" />
+            <Int Num="213" />
+            <Int Num="-133" />
+            <Int Num="-960" />
+            <Int Num="406" />
+            <Int Num="378" />
+            <Int Num="413" />
+            <Int Num="407" />
+            <Int Num="415" />
+            <Int Num="-74" />
+            <Int Num="-16" />
+        </Numbers>
+    </Data>
+    <Data Name="" Num="47">
+        <Definition />
+        <Numbers>
+            <Int Num="125" />
+            <Int Num="227" />
+            <Int Num="529" />
+            <Int Num="510" />
+            <Int Num="425" />
+            <Int Num="165" />
+            <Int Num="-95" />
+            <Int Num="-970" />
+            <Int Num="405" />
+            <Int Num="378" />
+            <Int Num="412" />
+            <Int Num="406" />
+            <Int Num="414" />
+            <Int Num="-72" />
+            <Int Num="-16" />
+        </Numbers>
+    </Data>
+</File>

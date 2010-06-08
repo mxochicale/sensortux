@@ -1,0 +1,65 @@
+\hypertarget{classRoggenSensor}{
+\section{RoggenSensor Class Reference}
+\label{classRoggenSensor}\index{RoggenSensor@{RoggenSensor}}
+}
+Inheritance diagram for RoggenSensor::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classRoggenSensor}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classRoggenSensor_ab58b74cb59244950881dba0b01e09fd5}{
+{\bfseries RoggenSensor} (std::string, std::string)}
+\label{classRoggenSensor_ab58b74cb59244950881dba0b01e09fd5}
+
+\item 
+\hypertarget{classRoggenSensor_af769216d0a6ececa2c280df1e66d950f}{
+{\bfseries RoggenSensor} (std::string)}
+\label{classRoggenSensor_af769216d0a6ececa2c280df1e66d950f}
+
+\item 
+\hyperlink{classRoggenSensor_a389b05fdb6e19f82241ac1d33cb07b59}{RoggenSensor} (int)
+\item 
+\hyperlink{classRoggenSensor_afe189b0bcb2e2eaf7090f60e3277eec4}{RoggenSensor} ()
+\item 
+virtual \hyperlink{classRoggenSensor_acd713d1615cd040b8691e24beb21c73e}{$\sim$RoggenSensor} ()
+\item 
+virtual RoggenData \hyperlink{classRoggenSensor_a296d8de06a1a0d3e0645389a34f42865}{getData} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classRoggenSensor_a389b05fdb6e19f82241ac1d33cb07b59}{
+\index{RoggenSensor@{RoggenSensor}!RoggenSensor@{RoggenSensor}}
+\index{RoggenSensor@{RoggenSensor}!RoggenSensor@{RoggenSensor}}
+\subsubsection[{RoggenSensor}]{\setlength{\rightskip}{0pt plus 5cm}RoggenSensor::RoggenSensor (int {\em number})}}
+\label{classRoggenSensor_a389b05fdb6e19f82241ac1d33cb07b59}
+Constructor initializes the object with path (sensor device e.g. /dev/rfcomm0) but instead of the whole string just the number at the end is given. For the format the default value DX5;ccsss-\/s-\/s-\/ssssss is used. \hypertarget{classRoggenSensor_afe189b0bcb2e2eaf7090f60e3277eec4}{
+\index{RoggenSensor@{RoggenSensor}!RoggenSensor@{RoggenSensor}}
+\index{RoggenSensor@{RoggenSensor}!RoggenSensor@{RoggenSensor}}
+\subsubsection[{RoggenSensor}]{\setlength{\rightskip}{0pt plus 5cm}RoggenSensor::RoggenSensor ()}}
+\label{classRoggenSensor_afe189b0bcb2e2eaf7090f60e3277eec4}
+Default constructor. Uses default path /dev/rfcomm0 For the format the default value DX5;ccsss-\/s-\/s-\/ssssss is used. \hypertarget{classRoggenSensor_acd713d1615cd040b8691e24beb21c73e}{
+\index{RoggenSensor@{RoggenSensor}!$\sim$RoggenSensor@{$\sim$RoggenSensor}}
+\index{$\sim$RoggenSensor@{$\sim$RoggenSensor}!RoggenSensor@{RoggenSensor}}
+\subsubsection[{$\sim$RoggenSensor}]{\setlength{\rightskip}{0pt plus 5cm}RoggenSensor::$\sim$RoggenSensor ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classRoggenSensor_acd713d1615cd040b8691e24beb21c73e}
+Destructor: Closes the device and cleans up (deleting the frame parser). 
+
+\subsection{Member Function Documentation}
+\hypertarget{classRoggenSensor_a296d8de06a1a0d3e0645389a34f42865}{
+\index{RoggenSensor@{RoggenSensor}!getData@{getData}}
+\index{getData@{getData}!RoggenSensor@{RoggenSensor}}
+\subsubsection[{getData}]{\setlength{\rightskip}{0pt plus 5cm}RoggenData RoggenSensor::getData ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classRoggenSensor_a296d8de06a1a0d3e0645389a34f42865}
+Implements the \hyperlink{classRoggenSensor_a296d8de06a1a0d3e0645389a34f42865}{getData()} method from the \hyperlink{classIntSource}{IntSource} interface class. The method blocks when there is no data available. Therefore from the outside it looks and feels the same whether you use a single sensor (\hyperlink{classRoggenSensor}{RoggenSensor}) of a fusion (\hyperlink{classRoggenSensorFusion}{RoggenSensorFusion}) of them. Both classes implement the same interface \hyperlink{classIntSource}{IntSource}. The method calls the FrameParser from Daniel Roggen to convert the sensor data. 
+
+Implements \hyperlink{classIntSource}{IntSource}.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+RoggenSensor.h\item 
+RoggenSensor.cpp\end{DoxyCompactItemize}

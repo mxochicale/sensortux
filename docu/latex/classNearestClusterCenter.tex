@@ -1,0 +1,109 @@
+\hypertarget{classNearestClusterCenter}{
+\section{NearestClusterCenter Class Reference}
+\label{classNearestClusterCenter}\index{NearestClusterCenter@{NearestClusterCenter}}
+}
+Inheritance diagram for NearestClusterCenter::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classNearestClusterCenter}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classNearestClusterCenter_a91e3450a7df8ef80a80ea9803671bb1e}{NearestClusterCenter} ()
+\item 
+\hyperlink{classNearestClusterCenter_ae3f8e71ca34ae2e0187395c38045f041}{NearestClusterCenter} (FeatureSet)
+\item 
+virtual \hyperlink{classNearestClusterCenter_a8b6f7f60937d0e860b117d774d645928}{$\sim$NearestClusterCenter} ()
+\item 
+virtual void \hyperlink{classNearestClusterCenter_ab5f85125ff65850ca4673fa0e85a0af5}{reset} ()
+\item 
+virtual void \hyperlink{classNearestClusterCenter_af3a9ba6b9ef3fb453ff10e76fe34e9d4}{train} (FeatureSet)
+\item 
+virtual \hyperlink{structOutput}{Output} \hyperlink{classNearestClusterCenter_ad2df5aaa3dabc0ef398a24872937b878}{classify} (Features)
+\item 
+virtual std::pair$<$ \hyperlink{structOutput}{Output}, FeatureType $>$ \hyperlink{classNearestClusterCenter_a49853a2af22ba1688ac438a376d53c42}{classification} (Features)
+\item 
+virtual void \hyperlink{classNearestClusterCenter_ab902e7abfb704d132d8548672253bb0a}{setUnknownThreshold} (float)
+\item 
+virtual float \hyperlink{classNearestClusterCenter_aad9b89686794d4b974b38e3aac7bb51e}{getUnknownThreshold} ()
+\item 
+virtual void \hyperlink{classNearestClusterCenter_a9ae11b14356f29dcf5fa2666dac6faed}{print} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classNearestClusterCenter_a91e3450a7df8ef80a80ea9803671bb1e}{
+\index{NearestClusterCenter@{NearestClusterCenter}!NearestClusterCenter@{NearestClusterCenter}}
+\index{NearestClusterCenter@{NearestClusterCenter}!NearestClusterCenter@{NearestClusterCenter}}
+\subsubsection[{NearestClusterCenter}]{\setlength{\rightskip}{0pt plus 5cm}NearestClusterCenter::NearestClusterCenter ()}}
+\label{classNearestClusterCenter_a91e3450a7df8ef80a80ea9803671bb1e}
+Constructor: Clears all the internal fields and leaves the algorithm untrained. \hypertarget{classNearestClusterCenter_ae3f8e71ca34ae2e0187395c38045f041}{
+\index{NearestClusterCenter@{NearestClusterCenter}!NearestClusterCenter@{NearestClusterCenter}}
+\index{NearestClusterCenter@{NearestClusterCenter}!NearestClusterCenter@{NearestClusterCenter}}
+\subsubsection[{NearestClusterCenter}]{\setlength{\rightskip}{0pt plus 5cm}NearestClusterCenter::NearestClusterCenter (FeatureSet {\em s})}}
+\label{classNearestClusterCenter_ae3f8e71ca34ae2e0187395c38045f041}
+Constructor: Clears all the internal fields and trains the algorithm with the given set of features. \hypertarget{classNearestClusterCenter_a8b6f7f60937d0e860b117d774d645928}{
+\index{NearestClusterCenter@{NearestClusterCenter}!$\sim$NearestClusterCenter@{$\sim$NearestClusterCenter}}
+\index{$\sim$NearestClusterCenter@{$\sim$NearestClusterCenter}!NearestClusterCenter@{NearestClusterCenter}}
+\subsubsection[{$\sim$NearestClusterCenter}]{\setlength{\rightskip}{0pt plus 5cm}NearestClusterCenter::$\sim$NearestClusterCenter ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classNearestClusterCenter_a8b6f7f60937d0e860b117d774d645928}
+Empty Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{classNearestClusterCenter_a49853a2af22ba1688ac438a376d53c42}{
+\index{NearestClusterCenter@{NearestClusterCenter}!classification@{classification}}
+\index{classification@{classification}!NearestClusterCenter@{NearestClusterCenter}}
+\subsubsection[{classification}]{\setlength{\rightskip}{0pt plus 5cm}pair$<$ {\bf Output}, FeatureType $>$ NearestClusterCenter::classification (Features {\em in})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classNearestClusterCenter_a49853a2af22ba1688ac438a376d53c42}
+Classification function. Matches the given point in feature space to the nearest cluster center. The classification is marked valid depending if the distance between the point and the center is less then the defined threshold. The first value of the output pair is the found classification in an \hyperlink{structOutput}{Output} struct. The \hyperlink{structOutput}{Output} struct contains a flag if the classification is valid and the value of the classification. The second value of the output pair tells the distance between the given point and the matched cluster center. 
+
+Implements \hyperlink{classLearningAlgorithm}{LearningAlgorithm}.\hypertarget{classNearestClusterCenter_ad2df5aaa3dabc0ef398a24872937b878}{
+\index{NearestClusterCenter@{NearestClusterCenter}!classify@{classify}}
+\index{classify@{classify}!NearestClusterCenter@{NearestClusterCenter}}
+\subsubsection[{classify}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Output} NearestClusterCenter::classify (Features {\em in})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classNearestClusterCenter_ad2df5aaa3dabc0ef398a24872937b878}
+Classification function. Matches the given point in feature space to the nearest cluster center. The classification is marked valid depending if the distance between the point and the center is less then the defined threshold. The return value is the found classification as an \hyperlink{structOutput}{Output} struct. The \hyperlink{structOutput}{Output} struct contains a flag if the classification is valid and the value of the classification. 
+
+Implements \hyperlink{classLearningAlgorithm}{LearningAlgorithm}.\hypertarget{classNearestClusterCenter_aad9b89686794d4b974b38e3aac7bb51e}{
+\index{NearestClusterCenter@{NearestClusterCenter}!getUnknownThreshold@{getUnknownThreshold}}
+\index{getUnknownThreshold@{getUnknownThreshold}!NearestClusterCenter@{NearestClusterCenter}}
+\subsubsection[{getUnknownThreshold}]{\setlength{\rightskip}{0pt plus 5cm}float NearestClusterCenter::getUnknownThreshold ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classNearestClusterCenter_aad9b89686794d4b974b38e3aac7bb51e}
+Getter function for the classification threshold. If a point in feature space is classified with a distance from the nearest cluster bigger then the threshold it's marked as invalid. 
+
+Implements \hyperlink{classLearningAlgorithm}{LearningAlgorithm}.\hypertarget{classNearestClusterCenter_a9ae11b14356f29dcf5fa2666dac6faed}{
+\index{NearestClusterCenter@{NearestClusterCenter}!print@{print}}
+\index{print@{print}!NearestClusterCenter@{NearestClusterCenter}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}void NearestClusterCenter::print ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classNearestClusterCenter_a9ae11b14356f29dcf5fa2666dac6faed}
+Print function for the set of cluster centers. 
+
+Implements \hyperlink{classLearningAlgorithm}{LearningAlgorithm}.\hypertarget{classNearestClusterCenter_ab5f85125ff65850ca4673fa0e85a0af5}{
+\index{NearestClusterCenter@{NearestClusterCenter}!reset@{reset}}
+\index{reset@{reset}!NearestClusterCenter@{NearestClusterCenter}}
+\subsubsection[{reset}]{\setlength{\rightskip}{0pt plus 5cm}void NearestClusterCenter::reset ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classNearestClusterCenter_ab5f85125ff65850ca4673fa0e85a0af5}
+Clears the internal fields e.g. resets the training state to untrained. 
+
+Implements \hyperlink{classLearningAlgorithm}{LearningAlgorithm}.\hypertarget{classNearestClusterCenter_ab902e7abfb704d132d8548672253bb0a}{
+\index{NearestClusterCenter@{NearestClusterCenter}!setUnknownThreshold@{setUnknownThreshold}}
+\index{setUnknownThreshold@{setUnknownThreshold}!NearestClusterCenter@{NearestClusterCenter}}
+\subsubsection[{setUnknownThreshold}]{\setlength{\rightskip}{0pt plus 5cm}void NearestClusterCenter::setUnknownThreshold (float {\em newUT})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classNearestClusterCenter_ab902e7abfb704d132d8548672253bb0a}
+Setter function for the classification threshold. If a point in feature space is classified with a distance from the nearest cluster bigger then the threshold it's marked as invalid. 
+
+Implements \hyperlink{classLearningAlgorithm}{LearningAlgorithm}.\hypertarget{classNearestClusterCenter_af3a9ba6b9ef3fb453ff10e76fe34e9d4}{
+\index{NearestClusterCenter@{NearestClusterCenter}!train@{train}}
+\index{train@{train}!NearestClusterCenter@{NearestClusterCenter}}
+\subsubsection[{train}]{\setlength{\rightskip}{0pt plus 5cm}void NearestClusterCenter::train (FeatureSet {\em set})\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classNearestClusterCenter_af3a9ba6b9ef3fb453ff10e76fe34e9d4}
+Trains the algorithm with the given training set. 
+
+Implements \hyperlink{classLearningAlgorithm}{LearningAlgorithm}.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+NearestClusterCenter.h\item 
+NearestClusterCenter.cpp\end{DoxyCompactItemize}

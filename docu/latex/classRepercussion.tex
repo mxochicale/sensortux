@@ -1,0 +1,172 @@
+\hypertarget{classRepercussion}{
+\section{Repercussion Class Reference}
+\label{classRepercussion}\index{Repercussion@{Repercussion}}
+}
+
+
+{\ttfamily \#include $<$Repercussion.h$>$}Inheritance diagram for Repercussion::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{classRepercussion}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classRepercussion_aa00feedc0ca2b0b3f75e799cd4dc4dac}{Repercussion} ()
+\item 
+\hyperlink{classRepercussion_a5a89f900156f4074a3d569fe48b11f1d}{Repercussion} (int)
+\item 
+virtual \hyperlink{classRepercussion_ad32730687e044c8d774dfb995af2f5a8}{$\sim$Repercussion} ()
+\item 
+void \hyperlink{classRepercussion_a903a946946c3393ea3a063d594e0fb91}{threadMethod} ()
+\item 
+void \hyperlink{classRepercussion_a27ded768fd7b386d8530dae787c46911}{set} (int, int=1)
+\item 
+int \hyperlink{classRepercussion_a1841959db6918b0bacdd436ef56b8313}{get} (int)
+\item 
+void \hyperlink{classRepercussion_ad119f81fef26097425bed1cad45dcaa9}{resetAll} ()
+\item 
+void \hyperlink{classRepercussion_a5677645d06730a42d44b2b69e6e1cac2}{reset} (int)
+\item 
+void \hyperlink{classRepercussion_aaa27e3c9251d0dda1c24ac77421bdaab}{inc} (int, int=1)
+\item 
+void \hyperlink{classRepercussion_ac86fbba0711b097da755b6a7280eef63}{dec} (int, int=1)
+\item 
+void \hyperlink{classRepercussion_afece2a141e05cceea3dff10b7d67c63e}{incAll} (int=1)
+\item 
+void \hyperlink{classRepercussion_ad825c06913e11c2617f38ee4421f237a}{setAll} (int=1)
+\item 
+void \hyperlink{classRepercussion_a87bb91156e63992084f6011b32acab8c}{decAll} (int=1)
+\item 
+std::vector$<$ int $>$ \hyperlink{classRepercussion_af2d97e8c5795fb6df793e0f17dd4831d}{getAll} ()
+\item 
+bool \hyperlink{classRepercussion_a95fc77c0adf534f0ce92a48a23bdaece}{isZero} (int)
+\item 
+void \hyperlink{classRepercussion_a19b9c3950397311c5f275fce451df5f6}{activate} ()
+\item 
+void \hyperlink{classRepercussion_a0d1bcb6ab372efecb912006e038f2bd5}{deactivate} ()
+\item 
+void \hyperlink{classRepercussion_a046c98f4950c6f484cb5d07c5f295e23}{setDelay} (int)
+\item 
+void \hyperlink{classRepercussion_a66219691fbf748e8751cf1c447347683}{setDecrement} (int)
+\item 
+void \hyperlink{classRepercussion_a8f4c193ca2406c92ebff923218c2e328}{setMaximum} (int)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for managing values which decrease against time. It can be used to make single events lasting over a defined amount of time. Author: Lars Widmer, www.lawi.ch 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classRepercussion_aa00feedc0ca2b0b3f75e799cd4dc4dac}{
+\index{Repercussion@{Repercussion}!Repercussion@{Repercussion}}
+\index{Repercussion@{Repercussion}!Repercussion@{Repercussion}}
+\subsubsection[{Repercussion}]{\setlength{\rightskip}{0pt plus 5cm}Repercussion::Repercussion ()}}
+\label{classRepercussion_aa00feedc0ca2b0b3f75e799cd4dc4dac}
+Constructor creates and initializes an empty instance. \hypertarget{classRepercussion_a5a89f900156f4074a3d569fe48b11f1d}{
+\index{Repercussion@{Repercussion}!Repercussion@{Repercussion}}
+\index{Repercussion@{Repercussion}!Repercussion@{Repercussion}}
+\subsubsection[{Repercussion}]{\setlength{\rightskip}{0pt plus 5cm}Repercussion::Repercussion (int {\em number})}}
+\label{classRepercussion_a5a89f900156f4074a3d569fe48b11f1d}
+Constructor creates and initializes an instance for the use with the given number of values. \hypertarget{classRepercussion_ad32730687e044c8d774dfb995af2f5a8}{
+\index{Repercussion@{Repercussion}!$\sim$Repercussion@{$\sim$Repercussion}}
+\index{$\sim$Repercussion@{$\sim$Repercussion}!Repercussion@{Repercussion}}
+\subsubsection[{$\sim$Repercussion}]{\setlength{\rightskip}{0pt plus 5cm}Repercussion::$\sim$Repercussion ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classRepercussion_ad32730687e044c8d774dfb995af2f5a8}
+Destructor: Stops the internal thread. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classRepercussion_a19b9c3950397311c5f275fce451df5f6}{
+\index{Repercussion@{Repercussion}!activate@{activate}}
+\index{activate@{activate}!Repercussion@{Repercussion}}
+\subsubsection[{activate}]{\setlength{\rightskip}{0pt plus 5cm}void Repercussion::activate ()}}
+\label{classRepercussion_a19b9c3950397311c5f275fce451df5f6}
+Activates the repercussion instance. Initially the instance of this class is inactive. It doesn't start decrementing before it's activated. First define all the settings and then activate. \hypertarget{classRepercussion_a0d1bcb6ab372efecb912006e038f2bd5}{
+\index{Repercussion@{Repercussion}!deactivate@{deactivate}}
+\index{deactivate@{deactivate}!Repercussion@{Repercussion}}
+\subsubsection[{deactivate}]{\setlength{\rightskip}{0pt plus 5cm}void Repercussion::deactivate ()}}
+\label{classRepercussion_a0d1bcb6ab372efecb912006e038f2bd5}
+Deactivates the repercussion instance. It doesn't decrement while inactive. \hypertarget{classRepercussion_ac86fbba0711b097da755b6a7280eef63}{
+\index{Repercussion@{Repercussion}!dec@{dec}}
+\index{dec@{dec}!Repercussion@{Repercussion}}
+\subsubsection[{dec}]{\setlength{\rightskip}{0pt plus 5cm}void Repercussion::dec (int {\em val}, \/  int {\em amount} = {\ttfamily 1})}}
+\label{classRepercussion_ac86fbba0711b097da755b6a7280eef63}
+Subtract the amount given in the second parameter from the value with the index given in the first parameter. With this method the values can't get negative. \hypertarget{classRepercussion_a87bb91156e63992084f6011b32acab8c}{
+\index{Repercussion@{Repercussion}!decAll@{decAll}}
+\index{decAll@{decAll}!Repercussion@{Repercussion}}
+\subsubsection[{decAll}]{\setlength{\rightskip}{0pt plus 5cm}void Repercussion::decAll (int {\em amount} = {\ttfamily 1})}}
+\label{classRepercussion_a87bb91156e63992084f6011b32acab8c}
+Subtract the given amount from all values. With this method the values can't get negative. \hypertarget{classRepercussion_a1841959db6918b0bacdd436ef56b8313}{
+\index{Repercussion@{Repercussion}!get@{get}}
+\index{get@{get}!Repercussion@{Repercussion}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}int Repercussion::get (int {\em val})}}
+\label{classRepercussion_a1841959db6918b0bacdd436ef56b8313}
+Return the value with the given index. \hypertarget{classRepercussion_af2d97e8c5795fb6df793e0f17dd4831d}{
+\index{Repercussion@{Repercussion}!getAll@{getAll}}
+\index{getAll@{getAll}!Repercussion@{Repercussion}}
+\subsubsection[{getAll}]{\setlength{\rightskip}{0pt plus 5cm}std::vector$<$ int $>$ Repercussion::getAll ()}}
+\label{classRepercussion_af2d97e8c5795fb6df793e0f17dd4831d}
+Returns all the values as a vector. \hypertarget{classRepercussion_aaa27e3c9251d0dda1c24ac77421bdaab}{
+\index{Repercussion@{Repercussion}!inc@{inc}}
+\index{inc@{inc}!Repercussion@{Repercussion}}
+\subsubsection[{inc}]{\setlength{\rightskip}{0pt plus 5cm}void Repercussion::inc (int {\em val}, \/  int {\em amount} = {\ttfamily 1})}}
+\label{classRepercussion_aaa27e3c9251d0dda1c24ac77421bdaab}
+Add the amount given in the second parameter to the value with the index given in the first parameter. With this method the values can't go over the defined maximum. \hypertarget{classRepercussion_afece2a141e05cceea3dff10b7d67c63e}{
+\index{Repercussion@{Repercussion}!incAll@{incAll}}
+\index{incAll@{incAll}!Repercussion@{Repercussion}}
+\subsubsection[{incAll}]{\setlength{\rightskip}{0pt plus 5cm}void Repercussion::incAll (int {\em amount} = {\ttfamily 1})}}
+\label{classRepercussion_afece2a141e05cceea3dff10b7d67c63e}
+Add the given amount to all values. With this method the values can't go over the defined maximum. \hypertarget{classRepercussion_a95fc77c0adf534f0ce92a48a23bdaece}{
+\index{Repercussion@{Repercussion}!isZero@{isZero}}
+\index{isZero@{isZero}!Repercussion@{Repercussion}}
+\subsubsection[{isZero}]{\setlength{\rightskip}{0pt plus 5cm}bool Repercussion::isZero (int {\em val})}}
+\label{classRepercussion_a95fc77c0adf534f0ce92a48a23bdaece}
+Returns true if the value with the given index is zero (or below). \hypertarget{classRepercussion_a5677645d06730a42d44b2b69e6e1cac2}{
+\index{Repercussion@{Repercussion}!reset@{reset}}
+\index{reset@{reset}!Repercussion@{Repercussion}}
+\subsubsection[{reset}]{\setlength{\rightskip}{0pt plus 5cm}void Repercussion::reset (int {\em val})}}
+\label{classRepercussion_a5677645d06730a42d44b2b69e6e1cac2}
+Reset the value with the given index number to zero. \hypertarget{classRepercussion_ad119f81fef26097425bed1cad45dcaa9}{
+\index{Repercussion@{Repercussion}!resetAll@{resetAll}}
+\index{resetAll@{resetAll}!Repercussion@{Repercussion}}
+\subsubsection[{resetAll}]{\setlength{\rightskip}{0pt plus 5cm}void Repercussion::resetAll ()}}
+\label{classRepercussion_ad119f81fef26097425bed1cad45dcaa9}
+Reset all values to zero. \hypertarget{classRepercussion_a27ded768fd7b386d8530dae787c46911}{
+\index{Repercussion@{Repercussion}!set@{set}}
+\index{set@{set}!Repercussion@{Repercussion}}
+\subsubsection[{set}]{\setlength{\rightskip}{0pt plus 5cm}void Repercussion::set (int {\em val}, \/  int {\em level} = {\ttfamily 1})}}
+\label{classRepercussion_a27ded768fd7b386d8530dae787c46911}
+Set the value with the given index to the given level. \hypertarget{classRepercussion_ad825c06913e11c2617f38ee4421f237a}{
+\index{Repercussion@{Repercussion}!setAll@{setAll}}
+\index{setAll@{setAll}!Repercussion@{Repercussion}}
+\subsubsection[{setAll}]{\setlength{\rightskip}{0pt plus 5cm}void Repercussion::setAll (int {\em level} = {\ttfamily 1})}}
+\label{classRepercussion_ad825c06913e11c2617f38ee4421f237a}
+Set all values to the given level. \hypertarget{classRepercussion_a66219691fbf748e8751cf1c447347683}{
+\index{Repercussion@{Repercussion}!setDecrement@{setDecrement}}
+\index{setDecrement@{setDecrement}!Repercussion@{Repercussion}}
+\subsubsection[{setDecrement}]{\setlength{\rightskip}{0pt plus 5cm}void Repercussion::setDecrement (int {\em subtr})}}
+\label{classRepercussion_a66219691fbf748e8751cf1c447347683}
+Setter function for the amount to subtract from the values in each step. Default is 1. \hypertarget{classRepercussion_a046c98f4950c6f484cb5d07c5f295e23}{
+\index{Repercussion@{Repercussion}!setDelay@{setDelay}}
+\index{setDelay@{setDelay}!Repercussion@{Repercussion}}
+\subsubsection[{setDelay}]{\setlength{\rightskip}{0pt plus 5cm}void Repercussion::setDelay (int {\em uSec})}}
+\label{classRepercussion_a046c98f4950c6f484cb5d07c5f295e23}
+Setter function for the delay in microseconds between the decrementation steps. Use values above 1000. Default is 1000. \hypertarget{classRepercussion_a8f4c193ca2406c92ebff923218c2e328}{
+\index{Repercussion@{Repercussion}!setMaximum@{setMaximum}}
+\index{setMaximum@{setMaximum}!Repercussion@{Repercussion}}
+\subsubsection[{setMaximum}]{\setlength{\rightskip}{0pt plus 5cm}void Repercussion::setMaximum (int {\em max})}}
+\label{classRepercussion_a8f4c193ca2406c92ebff923218c2e328}
+Setter function for the maximum value. Default is 500. \hypertarget{classRepercussion_a903a946946c3393ea3a063d594e0fb91}{
+\index{Repercussion@{Repercussion}!threadMethod@{threadMethod}}
+\index{threadMethod@{threadMethod}!Repercussion@{Repercussion}}
+\subsubsection[{threadMethod}]{\setlength{\rightskip}{0pt plus 5cm}void Repercussion::threadMethod ()\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}
+\label{classRepercussion_a903a946946c3393ea3a063d594e0fb91}
+\hyperlink{classThread}{Thread} method aging the stored values according to the defined settings. 
+
+Reimplemented from \hyperlink{classThread_adc91220b96d25109b5f3ea73f8a75947}{Thread}.
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+Repercussion.h\item 
+Repercussion.cpp\end{DoxyCompactItemize}

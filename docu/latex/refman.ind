@@ -1,0 +1,567 @@
+\begin{theindex}
+
+  \item {$\sim $ClassificationTux}
+    \subitem {ClassificationTux}, \hyperpage{5}
+  \item {$\sim $Configuration}
+    \subitem {Configuration}, \hyperpage{9}
+  \item {$\sim $GestureManagement}
+    \subitem {GestureManagement}, \hyperpage{20}
+  \item {$\sim $IntSource}
+    \subitem {IntSource}, \hyperpage{31}
+  \item {$\sim $LearningAlgorithm}
+    \subitem {LearningAlgorithm}, \hyperpage{33}
+  \item {$\sim $Mutex}
+    \subitem {Mutex}, \hyperpage{36}
+  \item {$\sim $NearestClusterCenter}
+    \subitem {NearestClusterCenter}, \hyperpage{37}
+  \item {$\sim $Repercussion}
+    \subitem {Repercussion}, \hyperpage{43}
+  \item {$\sim $RoggenBuffer}
+    \subitem {RoggenBuffer}, \hyperpage{47}
+  \item {$\sim $RoggenDataExtension}
+    \subitem {RoggenDataExtension}, \hyperpage{50}
+  \item {$\sim $RoggenFeatureExtraction}
+    \subitem {RoggenFeatureExtraction}, \hyperpage{52}
+  \item {$\sim $RoggenSensor}
+    \subitem {RoggenSensor}, \hyperpage{56}
+  \item {$\sim $RoggenSensorFusion}
+    \subitem {RoggenSensorFusion}, \hyperpage{57}
+  \item {$\sim $Thread}
+    \subitem {Thread}, \hyperpage{60}
+  \item {$\sim $TuxControl}
+    \subitem {TuxControl}, \hyperpage{62}
+
+  \indexspace
+
+  \item {acquireMutex}
+    \subitem {Mutex}, \hyperpage{36}
+  \item {activate}
+    \subitem {Repercussion}, \hyperpage{44}
+  \item {addControlEvent}
+    \subitem {TuxControl}, \hyperpage{62}
+  \item {angleBetweenVectors}
+    \subitem {Helper}, \hyperpage{26}
+  \item {at}
+    \subitem {RoggenBuffer}, \hyperpage{47}
+
+  \indexspace
+
+  \item {bufferFull}
+    \subitem {GestureManagement}, \hyperpage{20}
+
+  \indexspace
+
+  \item {check}
+    \subitem {RoggenBuffer}, \hyperpage{47}
+  \item {checkAllFiles}
+    \subitem {GestureManagement}, \hyperpage{21}
+  \item {checkSize}
+    \subitem {RoggenBuffer}, \hyperpage{47}
+  \item {classification}
+    \subitem {NearestClusterCenter}, \hyperpage{37}
+  \item {ClassificationTux}, \hyperpage{5}
+    \subitem {$\sim $ClassificationTux}, \hyperpage{5}
+    \subitem {ClassificationTux}, \hyperpage{5}
+    \subitem {threadMethod}, \hyperpage{6}
+  \item {classify}
+    \subitem {GestureManagement}, \hyperpage{21}
+    \subitem {NearestClusterCenter}, \hyperpage{37}
+  \item {clear}
+    \subitem {Configuration}, \hyperpage{9}
+    \subitem {RoggenBuffer}, \hyperpage{47}
+  \item {clearQueue}
+    \subitem {TuxControl}, \hyperpage{62}
+  \item {Cloud}, \hyperpage{7}
+  \item {Configuration}, \hyperpage{8}
+    \subitem {$\sim $Configuration}, \hyperpage{9}
+    \subitem {clear}, \hyperpage{9}
+    \subitem {getFilename}, \hyperpage{9}
+    \subitem {getISVec}, \hyperpage{9}
+    \subitem {print}, \hyperpage{9}
+  \item {continousMode}
+    \subitem {GestureManagement}, \hyperpage{21}
+  \item {ControlEvent}, \hyperpage{10}
+
+  \indexspace
+
+  \item {DataStrings}, \hyperpage{11}
+    \subitem {decode}, \hyperpage{11}
+    \subitem {decodeByte}, \hyperpage{11}
+    \subitem {decodeFloat}, \hyperpage{11}
+    \subitem {decodeLimbPos}, \hyperpage{11}
+    \subitem {decodeWord}, \hyperpage{11}
+    \subitem {encode}, \hyperpage{12}
+    \subitem {encodeByte}, \hyperpage{12}
+    \subitem {encodeFloat}, \hyperpage{12}
+    \subitem {encodeLimbPos}, \hyperpage{12}
+    \subitem {encodeWord}, \hyperpage{12}
+    \subitem {getByte}, \hyperpage{12}
+    \subitem {getBytes}, \hyperpage{12}
+    \subitem {getData}, \hyperpage{12}
+    \subitem {getDataString}, \hyperpage{12, 13}
+    \subitem {getNibbles}, \hyperpage{13}
+    \subitem {getWord}, \hyperpage{13}
+    \subitem {roggenDecode}, \hyperpage{13}
+    \subitem {roggenEncode}, \hyperpage{13}
+  \item {deactivate}
+    \subitem {Repercussion}, \hyperpage{44}
+  \item {dec}
+    \subitem {Repercussion}, \hyperpage{44}
+  \item {decAll}
+    \subitem {Repercussion}, \hyperpage{44}
+  \item {decode}
+    \subitem {DataStrings}, \hyperpage{11}
+  \item {decodeByte}
+    \subitem {DataStrings}, \hyperpage{11}
+  \item {decodeFloat}
+    \subitem {DataStrings}, \hyperpage{11}
+  \item {decodeLimbPos}
+    \subitem {DataStrings}, \hyperpage{11}
+  \item {decodeWord}
+    \subitem {DataStrings}, \hyperpage{11}
+  \item {Defines}, \hyperpage{14}
+
+  \indexspace
+
+  \item {encode}
+    \subitem {DataStrings}, \hyperpage{12}
+  \item {encodeByte}
+    \subitem {DataStrings}, \hyperpage{12}
+  \item {encodeFloat}
+    \subitem {DataStrings}, \hyperpage{12}
+  \item {encodeLimbPos}
+    \subitem {DataStrings}, \hyperpage{12}
+  \item {encodeWord}
+    \subitem {DataStrings}, \hyperpage{12}
+  \item {EulerRotation}, \hyperpage{15}
+
+  \indexspace
+
+  \item {FeatureSample}, \hyperpage{16}
+  \item {fileExists}
+    \subitem {Helper}, \hyperpage{26}
+  \item {fillBuffer}
+    \subitem {GestureManagement}, \hyperpage{21}
+  \item {filter}
+    \subitem {RoggenBuffer}, \hyperpage{47}
+  \item {filterPut}
+    \subitem {RoggenBuffer}, \hyperpage{48}
+  \item {FloatData}, \hyperpage{17}
+  \item {FloatStruct}, \hyperpage{18}
+  \item {FrameParser2}, \hyperpage{19}
+
+  \indexspace
+
+  \item {GestureManagement}, \hyperpage{20}
+    \subitem {$\sim $GestureManagement}, \hyperpage{20}
+    \subitem {bufferFull}, \hyperpage{20}
+    \subitem {checkAllFiles}, \hyperpage{21}
+    \subitem {classify}, \hyperpage{21}
+    \subitem {continousMode}, \hyperpage{21}
+    \subitem {fillBuffer}, \hyperpage{21}
+    \subitem {GestureManagement}, \hyperpage{20}
+    \subitem {gotEnergy}, \hyperpage{21}
+    \subitem {isGestureLengthOk}, \hyperpage{21}
+    \subitem {isSensorTrained}, \hyperpage{21}
+    \subitem {lostEnergy}, \hyperpage{21, 22}
+    \subitem {manageGestures}, \hyperpage{22}
+    \subitem {numberOfGestures}, \hyperpage{22}
+    \subitem {numberOfSensors}, \hyperpage{22}
+    \subitem {reenter}, \hyperpage{22}
+    \subitem {sensorOfGesture}, \hyperpage{22}
+    \subitem {setBufferToEnergyFrameSize}, \hyperpage{22}
+    \subitem {setBufferToLongestGestureSize}, \hyperpage{22}
+    \subitem {setBufferUnlimited}, \hyperpage{23}
+    \subitem {training}, \hyperpage{23}
+    \subitem {updateBuffers}, \hyperpage{23}
+    \subitem {wait}, \hyperpage{23}
+  \item {get}
+    \subitem {Repercussion}, \hyperpage{44}
+    \subitem {RoggenBuffer}, \hyperpage{48}
+  \item {getAll}
+    \subitem {Repercussion}, \hyperpage{44}
+  \item {getByte}
+    \subitem {DataStrings}, \hyperpage{12}
+  \item {getBytes}
+    \subitem {DataStrings}, \hyperpage{12}
+  \item {getch}
+    \subitem {Helper}, \hyperpage{26}
+  \item {getControlEvent}
+    \subitem {TuxControl}, \hyperpage{62}
+  \item {getData}
+    \subitem {DataStrings}, \hyperpage{12}
+    \subitem {RoggenDataExtension}, \hyperpage{50}
+    \subitem {RoggenSensor}, \hyperpage{56}
+    \subitem {RoggenSensorFusion}, \hyperpage{57}
+  \item {getDataString}
+    \subitem {DataStrings}, \hyperpage{12, 13}
+  \item {getEventQueueLength}
+    \subitem {TuxControl}, \hyperpage{62}
+  \item {getFilename}
+    \subitem {Configuration}, \hyperpage{9}
+  \item {getFrames}
+    \subitem {RoggenBuffer}, \hyperpage{48}
+  \item {getInstance}
+    \subitem {TuxControlSingleton}, \hyperpage{64}
+  \item {getISVec}
+    \subitem {Configuration}, \hyperpage{9}
+  \item {getLast}
+    \subitem {RoggenBuffer}, \hyperpage{48}
+  \item {getMean}
+    \subitem {RoggenFeatureExtraction}, \hyperpage{52}
+  \item {getMeanCrossingRate}
+    \subitem {RoggenFeatureExtraction}, \hyperpage{52}
+  \item {getNibbles}
+    \subitem {DataStrings}, \hyperpage{13}
+  \item {getPointer}
+    \subitem {RoggenBuffer}, \hyperpage{48}
+  \item {getRange}
+    \subitem {RoggenBuffer}, \hyperpage{48}
+  \item {getSingleMeasurement}
+    \subitem {RoggenBuffer}, \hyperpage{48}
+  \item {getStandardDeviation}
+    \subitem {RoggenFeatureExtraction}, \hyperpage{53}
+  \item {getUnknownThreshold}
+    \subitem {NearestClusterCenter}, \hyperpage{38}
+  \item {getVariance}
+    \subitem {RoggenFeatureExtraction}, \hyperpage{53, 54}
+  \item {getWord}
+    \subitem {DataStrings}, \hyperpage{13}
+  \item {gotEnergy}
+    \subitem {GestureManagement}, \hyperpage{21}
+    \subitem {RoggenFeatureExtraction}, \hyperpage{54}
+
+  \indexspace
+
+  \item {Helper}, \hyperpage{24}
+    \subitem {angleBetweenVectors}, \hyperpage{26}
+    \subitem {fileExists}, \hyperpage{26}
+    \subitem {getch}, \hyperpage{26}
+    \subitem {Helper}, \hyperpage{25}
+    \subitem {kbhit}, \hyperpage{26}
+    \subitem {multiply}, \hyperpage{26}
+    \subitem {normalize}, \hyperpage{26}
+    \subitem {num2Char}, \hyperpage{26}
+    \subitem {print2DecimalPlaces}, \hyperpage{26}
+    \subitem {restartuSeconds}, \hyperpage{26}
+    \subitem {rotate}, \hyperpage{26, 27}
+    \subitem {scalarProduct}, \hyperpage{27}
+    \subitem {secAnduSec}, \hyperpage{27}
+    \subitem {seconds}, \hyperpage{27}
+    \subitem {setRowSize}, \hyperpage{27}
+    \subitem {setRowWidth}, \hyperpage{27}
+    \subitem {specialSleep}, \hyperpage{27}
+    \subitem {str2UpperCase}, \hyperpage{27}
+    \subitem {unitCircleDistance}, \hyperpage{27}
+    \subitem {unitCirclePoint}, \hyperpage{28}
+    \subitem {uSeconds}, \hyperpage{28}
+    \subitem {uSecondsSinceStart}, \hyperpage{28}
+    \subitem {vectorAngles}, \hyperpage{28}
+    \subitem {vectorAngles2}, \hyperpage{28}
+    \subitem {vectorDifference}, \hyperpage{28}
+    \subitem {vectorLength}, \hyperpage{28}
+    \subitem {vectorProduct}, \hyperpage{28}
+    \subitem {vectorSum}, \hyperpage{29}
+
+  \indexspace
+
+  \item {inc}
+    \subitem {Repercussion}, \hyperpage{44}
+  \item {incAll}
+    \subitem {Repercussion}, \hyperpage{44}
+  \item {IntData}, \hyperpage{30}
+  \item {IntSource}, \hyperpage{31}
+    \subitem {$\sim $IntSource}, \hyperpage{31}
+  \item {IntStruct}, \hyperpage{32}
+  \item {invalidateControlEvent}
+    \subitem {TuxControl}, \hyperpage{63}
+  \item {isFresh}
+    \subitem {RoggenBuffer}, \hyperpage{48}
+  \item {isFull}
+    \subitem {RoggenBuffer}, \hyperpage{48}
+  \item {isGestureLengthOk}
+    \subitem {GestureManagement}, \hyperpage{21}
+  \item {isSensorTrained}
+    \subitem {GestureManagement}, \hyperpage{21}
+  \item {isZero}
+    \subitem {Repercussion}, \hyperpage{44}
+
+  \indexspace
+
+  \item {kbhit}
+    \subitem {Helper}, \hyperpage{26}
+
+  \indexspace
+
+  \item {LearningAlgorithm}, \hyperpage{33}
+    \subitem {$\sim $LearningAlgorithm}, \hyperpage{33}
+  \item {LimbCoordinates}, \hyperpage{34}
+  \item {LimbNameCoordinates}, \hyperpage{35}
+  \item {lostEnergy}
+    \subitem {GestureManagement}, \hyperpage{21, 22}
+    \subitem {RoggenFeatureExtraction}, \hyperpage{54, 55}
+
+  \indexspace
+
+  \item {manageGestures}
+    \subitem {GestureManagement}, \hyperpage{22}
+  \item {maxSize}
+    \subitem {RoggenBuffer}, \hyperpage{49}
+  \item {multiply}
+    \subitem {Helper}, \hyperpage{26}
+  \item {Mutex}, \hyperpage{36}
+    \subitem {$\sim $Mutex}, \hyperpage{36}
+    \subitem {acquireMutex}, \hyperpage{36}
+    \subitem {Mutex}, \hyperpage{36}
+    \subitem {releaseMutex}, \hyperpage{36}
+
+  \indexspace
+
+  \item {NearestClusterCenter}, \hyperpage{37}
+    \subitem {$\sim $NearestClusterCenter}, \hyperpage{37}
+    \subitem {classification}, \hyperpage{37}
+    \subitem {classify}, \hyperpage{37}
+    \subitem {getUnknownThreshold}, \hyperpage{38}
+    \subitem {NearestClusterCenter}, \hyperpage{37}
+    \subitem {print}, \hyperpage{38}
+    \subitem {reset}, \hyperpage{38}
+    \subitem {setUnknownThreshold}, \hyperpage{38}
+    \subitem {train}, \hyperpage{38}
+  \item {Neighbour}, \hyperpage{39}
+  \item {NodeAndData}, \hyperpage{40}
+  \item {NodeData}, \hyperpage{41}
+  \item {normalize}
+    \subitem {Helper}, \hyperpage{26}
+  \item {num2Char}
+    \subitem {Helper}, \hyperpage{26}
+  \item {numberOfGestures}
+    \subitem {GestureManagement}, \hyperpage{22}
+  \item {numberOfSensors}
+    \subitem {GestureManagement}, \hyperpage{22}
+
+  \indexspace
+
+  \item {Output}, \hyperpage{42}
+
+  \indexspace
+
+  \item {print}
+    \subitem {Configuration}, \hyperpage{9}
+    \subitem {NearestClusterCenter}, \hyperpage{38}
+  \item {print2DecimalPlaces}
+    \subitem {Helper}, \hyperpage{26}
+
+  \indexspace
+
+  \item {reenter}
+    \subitem {GestureManagement}, \hyperpage{22}
+  \item {releaseMutex}
+    \subitem {Mutex}, \hyperpage{36}
+  \item {removeControlEvent}
+    \subitem {TuxControl}, \hyperpage{63}
+  \item {Repercussion}, \hyperpage{43}
+    \subitem {$\sim $Repercussion}, \hyperpage{43}
+    \subitem {activate}, \hyperpage{44}
+    \subitem {deactivate}, \hyperpage{44}
+    \subitem {dec}, \hyperpage{44}
+    \subitem {decAll}, \hyperpage{44}
+    \subitem {get}, \hyperpage{44}
+    \subitem {getAll}, \hyperpage{44}
+    \subitem {inc}, \hyperpage{44}
+    \subitem {incAll}, \hyperpage{44}
+    \subitem {isZero}, \hyperpage{44}
+    \subitem {Repercussion}, \hyperpage{43}
+    \subitem {reset}, \hyperpage{44}
+    \subitem {resetAll}, \hyperpage{45}
+    \subitem {set}, \hyperpage{45}
+    \subitem {setAll}, \hyperpage{45}
+    \subitem {setDecrement}, \hyperpage{45}
+    \subitem {setDelay}, \hyperpage{45}
+    \subitem {setMaximum}, \hyperpage{45}
+    \subitem {threadMethod}, \hyperpage{45}
+  \item {reset}
+    \subitem {NearestClusterCenter}, \hyperpage{38}
+    \subitem {Repercussion}, \hyperpage{44}
+  \item {resetAll}
+    \subitem {Repercussion}, \hyperpage{45}
+  \item {resetUnlimited}
+    \subitem {RoggenBuffer}, \hyperpage{49}
+  \item {restartuSeconds}
+    \subitem {Helper}, \hyperpage{26}
+  \item {RoggenBuffer}, \hyperpage{46}
+    \subitem {$\sim $RoggenBuffer}, \hyperpage{47}
+    \subitem {at}, \hyperpage{47}
+    \subitem {check}, \hyperpage{47}
+    \subitem {checkSize}, \hyperpage{47}
+    \subitem {clear}, \hyperpage{47}
+    \subitem {filter}, \hyperpage{47}
+    \subitem {filterPut}, \hyperpage{48}
+    \subitem {get}, \hyperpage{48}
+    \subitem {getFrames}, \hyperpage{48}
+    \subitem {getLast}, \hyperpage{48}
+    \subitem {getPointer}, \hyperpage{48}
+    \subitem {getRange}, \hyperpage{48}
+    \subitem {getSingleMeasurement}, \hyperpage{48}
+    \subitem {isFresh}, \hyperpage{48}
+    \subitem {isFull}, \hyperpage{48}
+    \subitem {maxSize}, \hyperpage{49}
+    \subitem {resetUnlimited}, \hyperpage{49}
+    \subitem {RoggenBuffer}, \hyperpage{46, 47}
+    \subitem {setLength}, \hyperpage{49}
+    \subitem {setUnlimited}, \hyperpage{49}
+    \subitem {size}, \hyperpage{49}
+  \item {RoggenDataExtension}, \hyperpage{50}
+    \subitem {$\sim $RoggenDataExtension}, \hyperpage{50}
+    \subitem {getData}, \hyperpage{50}
+    \subitem {RoggenDataExtension}, \hyperpage{50}
+  \item {roggenDecode}
+    \subitem {DataStrings}, \hyperpage{13}
+  \item {roggenEncode}
+    \subitem {DataStrings}, \hyperpage{13}
+  \item {RoggenFeatureExtraction}, \hyperpage{51}
+    \subitem {$\sim $RoggenFeatureExtraction}, \hyperpage{52}
+    \subitem {getMean}, \hyperpage{52}
+    \subitem {getMeanCrossingRate}, \hyperpage{52}
+    \subitem {getStandardDeviation}, \hyperpage{53}
+    \subitem {getVariance}, \hyperpage{53, 54}
+    \subitem {gotEnergy}, \hyperpage{54}
+    \subitem {lostEnergy}, \hyperpage{54, 55}
+    \subitem {RoggenFeatureExtraction}, \hyperpage{52}
+  \item {RoggenSensor}, \hyperpage{56}
+    \subitem {$\sim $RoggenSensor}, \hyperpage{56}
+    \subitem {getData}, \hyperpage{56}
+    \subitem {RoggenSensor}, \hyperpage{56}
+  \item {RoggenSensorFusion}, \hyperpage{57}
+    \subitem {$\sim $RoggenSensorFusion}, \hyperpage{57}
+    \subitem {getData}, \hyperpage{57}
+    \subitem {threadMethod}, \hyperpage{57}
+  \item {rotate}
+    \subitem {Helper}, \hyperpage{26, 27}
+
+  \indexspace
+
+  \item {Sample}, \hyperpage{59}
+  \item {scalarProduct}
+    \subitem {Helper}, \hyperpage{27}
+  \item {secAnduSec}
+    \subitem {Helper}, \hyperpage{27}
+  \item {seconds}
+    \subitem {Helper}, \hyperpage{27}
+  \item {sensorOfGesture}
+    \subitem {GestureManagement}, \hyperpage{22}
+  \item {set}
+    \subitem {Repercussion}, \hyperpage{45}
+  \item {setAll}
+    \subitem {Repercussion}, \hyperpage{45}
+  \item {setBufferToEnergyFrameSize}
+    \subitem {GestureManagement}, \hyperpage{22}
+  \item {setBufferToLongestGestureSize}
+    \subitem {GestureManagement}, \hyperpage{22}
+  \item {setBufferUnlimited}
+    \subitem {GestureManagement}, \hyperpage{23}
+  \item {setControlEvent}
+    \subitem {TuxControl}, \hyperpage{63}
+  \item {setDecrement}
+    \subitem {Repercussion}, \hyperpage{45}
+  \item {setDelay}
+    \subitem {Repercussion}, \hyperpage{45}
+  \item {setLength}
+    \subitem {RoggenBuffer}, \hyperpage{49}
+  \item {setMaximum}
+    \subitem {Repercussion}, \hyperpage{45}
+  \item {setRowSize}
+    \subitem {Helper}, \hyperpage{27}
+  \item {setRowWidth}
+    \subitem {Helper}, \hyperpage{27}
+  \item {setThreadMethod}
+    \subitem {Thread}, \hyperpage{61}
+  \item {setUnknownThreshold}
+    \subitem {NearestClusterCenter}, \hyperpage{38}
+  \item {setUnlimited}
+    \subitem {RoggenBuffer}, \hyperpage{49}
+  \item {size}
+    \subitem {RoggenBuffer}, \hyperpage{49}
+  \item {specialSleep}
+    \subitem {Helper}, \hyperpage{27}
+  \item {startThread}
+    \subitem {Thread}, \hyperpage{61}
+  \item {stopped}
+    \subitem {Thread}, \hyperpage{61}
+  \item {stopThread}
+    \subitem {Thread}, \hyperpage{61}
+  \item {str2UpperCase}
+    \subitem {Helper}, \hyperpage{27}
+
+  \indexspace
+
+  \item {Thread}, \hyperpage{60}
+    \subitem {$\sim $Thread}, \hyperpage{60}
+    \subitem {setThreadMethod}, \hyperpage{61}
+    \subitem {startThread}, \hyperpage{61}
+    \subitem {stopped}, \hyperpage{61}
+    \subitem {stopThread}, \hyperpage{61}
+    \subitem {Thread}, \hyperpage{60}
+    \subitem {threadMethod}, \hyperpage{61}
+  \item {threadMethod}
+    \subitem {ClassificationTux}, \hyperpage{6}
+    \subitem {Repercussion}, \hyperpage{45}
+    \subitem {RoggenSensorFusion}, \hyperpage{57}
+    \subitem {Thread}, \hyperpage{61}
+  \item {train}
+    \subitem {NearestClusterCenter}, \hyperpage{38}
+  \item {training}
+    \subitem {GestureManagement}, \hyperpage{23}
+  \item {TuxControl}, \hyperpage{62}
+    \subitem {$\sim $TuxControl}, \hyperpage{62}
+    \subitem {addControlEvent}, \hyperpage{62}
+    \subitem {clearQueue}, \hyperpage{62}
+    \subitem {getControlEvent}, \hyperpage{62}
+    \subitem {getEventQueueLength}, \hyperpage{62}
+    \subitem {invalidateControlEvent}, \hyperpage{63}
+    \subitem {removeControlEvent}, \hyperpage{63}
+    \subitem {setControlEvent}, \hyperpage{63}
+    \subitem {TuxControl}, \hyperpage{62}
+    \subitem {validateControlEvent}, \hyperpage{63}
+  \item {TuxControlSingleton}, \hyperpage{64}
+    \subitem {getInstance}, \hyperpage{64}
+
+  \indexspace
+
+  \item {unitCircleDistance}
+    \subitem {Helper}, \hyperpage{27}
+  \item {unitCirclePoint}
+    \subitem {Helper}, \hyperpage{28}
+  \item {updateBuffers}
+    \subitem {GestureManagement}, \hyperpage{23}
+  \item {uSeconds}
+    \subitem {Helper}, \hyperpage{28}
+  \item {uSecondsSinceStart}
+    \subitem {Helper}, \hyperpage{28}
+
+  \indexspace
+
+  \item {validateControlEvent}
+    \subitem {TuxControl}, \hyperpage{63}
+  \item {vectorAngles}
+    \subitem {Helper}, \hyperpage{28}
+  \item {vectorAngles2}
+    \subitem {Helper}, \hyperpage{28}
+  \item {vectorDifference}
+    \subitem {Helper}, \hyperpage{28}
+  \item {vectorLength}
+    \subitem {Helper}, \hyperpage{28}
+  \item {vectorProduct}
+    \subitem {Helper}, \hyperpage{28}
+  \item {vectorSum}
+    \subitem {Helper}, \hyperpage{29}
+
+  \indexspace
+
+  \item {wait}
+    \subitem {GestureManagement}, \hyperpage{23}
+
+  \indexspace
+
+  \item {XmlFileHandling}, \hyperpage{65}
+
+\end{theindex}
